@@ -1,29 +1,33 @@
 import React, { Component } from 'react';
-import ReactGA from 'react-ga';
 import $ from 'jquery';
 import './App.css';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
 import About from './Components/About';
 import Resume from './Components/Resume';
-import Contact from './Components/Contact';
-import Testimonials from './Components/Testimonials';
 import Portfolio from './Components/Portfolio';
 
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+
+import translationsEN from './translations/en.json';
+import translationsPL from './translations/pl.json';
 
 class App extends Component {
 
   constructor(props){
     super(props);
     this.state = {
-      foo: 'bar',
-      resumeData: {}
+      resumeData: {},
+      language: 'pl', // default language
+      translations: translationsPL
     };
+  }
 
-    ReactGA.initialize('UA-110570651-1');
-    ReactGA.pageview(window.location.pathname);
-
+  toggleLanguage = () => {
+    this.setState(prevState => ({
+      language: prevState.language === 'pl' ? 'en' : 'pl',
+      translations: prevState.language === 'pl' ? translationsEN : translationsPL
+    }));
   }
 
   getResumeData(){
@@ -49,49 +53,55 @@ class App extends Component {
     return (
       <Router>
           <div className="App">
-            <Switch>
-              <Route path ='/'>
-                <Header data={this.state.resumeData.main} />
-                <About data={this.state.resumeData.main} />
-                <Resume data={this.state.resumeData.resume} />
-                <Portfolio data={this.state.resumeData.portfolio} />
-                {/* <Testimonials data={this.state.resumeData.testimonials} />
-                <Contact data={this.state.resumeData.main} /> */}
-                <Footer data={this.state.resumeData.main} />
-              </Route>
+            {/* Language Toggle Button */}
+            <button 
+              onClick={this.toggleLanguage}
+              style={{
+                position: 'fixed',
+                top: '20px',
+                right: '20px',
+                zIndex: 1000,
+                padding: '10px 20px',
+                backgroundColor: '#11ABB0',
+                color: 'white',
+                border: 'none',
+                borderRadius: '5px',
+                cursor: 'pointer',
+                fontWeight: 'bold'
+              }}
+            >
+              {this.state.language === 'pl' ? 'EN' : 'PL'}
+            </button>
 
-              <Route path='/Projekt'>
+            <Routes>
+              <Route path='/' element={
+                <>
+                  <Header 
+                    data={this.state.resumeData.main} 
+                    translations={this.state.translations}
+                  />
+                  <About 
+                    data={this.state.resumeData.main} 
+                    translations={this.state.translations}
+                  />
+                  <Resume 
+                    data={this.state.resumeData.resume} 
+                    translations={this.state.translations}
+                  />
+                  <Portfolio 
+                    data={this.state.resumeData.portfolio} 
+                    translations={this.state.translations}
+                  />
+                  <Footer data={this.state.resumeData.main} />
+                </>
+              } />
 
-              </Route>
-
-            </Switch>
+              <Route path='/Projekt' element={
+                <div>Projekt Page</div>
+              } />
+            </Routes>
           </div>
       </Router>
-    //   <div className="App">
-    //   <Header data={this.state.resumeData.main}/>
-    //   <About data={this.state.resumeData.main}/>
-    //   <Resume data={this.state.resumeData.resume}/>
-    //   <Portfolio data={this.state.resumeData.portfolio}/>
-    //   <Testimonials data={this.state.resumeData.testimonials}/>
-    //   <Contact data={this.state.resumeData.main}/>
-    //   <Footer data={this.state.resumeData.main}/>
-    // </div>
-
-
-    // <Router>
-    //       <Navbar />
-    //       <div className='Content'>
-            
-    //         <Switch>
-    //           <Route path='/' exact component={Home} />
-    //           <Route path='/Projects' exact component={Projects} />
-    //           <Route path='/Contact' exact component={Contact} />
-    //         </Switch>
-    //       <div className='Footer-Spacer'></div>
-    //       </div>
-    //       <Footer />
-    //   </Router>
-
     );
   }
 }

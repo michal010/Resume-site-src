@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 class Header extends Component {
   render() {
+    const t = this.props.translations?.nav || {};
 
     if(this.props.data){
       var name = this.props.data.name;
@@ -22,10 +23,10 @@ class Header extends Component {
 	      <a className="mobile-btn" href="#home" title="Hide navigation">Hide navigation</a>
 
          <ul id="nav" className="nav">
-            <li className="current"><a className="smoothscroll" href="#home">Do góry</a></li>
-            <li><a className="smoothscroll" href="#about">O mnie</a></li>
-	         <li><a className="smoothscroll" href="#resume">Życiorys</a></li>
-            <li><a className="smoothscroll" href="#portfolio">Projekty</a></li>
+            <li className="current"><a className="smoothscroll" href="#home">{t.home || 'Do góry'}</a></li>
+            <li><a className="smoothscroll" href="#about">{t.about || 'O mnie'}</a></li>
+	         <li><a className="smoothscroll" href="#resume">{t.resume || 'Życiorys'}</a></li>
+            <li><a className="smoothscroll" href="#portfolio">{t.portfolio || 'Projekty'}</a></li>
          </ul>
 
       </nav>
@@ -34,7 +35,6 @@ class Header extends Component {
          <div className="banner-text">
             <h1 className="responsive-headline"> {name}</h1>
             <h3>{description}</h3>
-            {/* <h3>I'm a {city} based <span>{occupation}</span>. {description}.</h3> */}
             <hr />
             <ul className="social">
                {networks}

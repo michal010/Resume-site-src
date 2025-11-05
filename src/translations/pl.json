@@ -1,0 +1,18 @@
+{
+  "nav": {
+    "home": "Do góry",
+    "about": "O mnie",
+    "resume": "Życiorys",
+    "portfolio": "Projekty"
+  },
+  "about": {
+    "title": "O mnie",
+    "contactDetails": "Dane do kontaktu",
+    "download": "Pobierz CV"
+  },
+  "resume": {
+    "education": "Edukacja",
+    "work": "Praca",
+    "skills": "Umiejętności"
+  }
+}

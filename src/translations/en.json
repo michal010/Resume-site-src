@@ -1,0 +1,18 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "resume": "Resume",
+    "portfolio": "Portfolio"
+  },
+  "about": {
+    "title": "About Me",
+    "contactDetails": "Contact Details",
+    "download": "Download Resume"
+  },
+  "resume": {
+    "education": "Education",
+    "work": "Work",
+    "skills": "Skills"
+  }
+}
