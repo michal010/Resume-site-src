@@ -6,6 +6,7 @@ import Footer from './Components/Footer';
 import About from './Components/About';
 import Resume from './Components/Resume';
 import Portfolio from './Components/Portfolio';
+import LanguageSwitcher from './Components/LanguageSwitcher';
 
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
@@ -67,10 +68,22 @@ class App extends Component {
                 border: 'none',
                 borderRadius: '5px',
                 cursor: 'pointer',
-                fontWeight: 'bold'
+                fontWeight: 'bold',
+                fontSize: '16px',
+                display: 'flex',
+                alignItems: 'center',
+                gap: '8px'
               }}
             >
-              {this.state.language === 'pl' ? 'EN' : 'PL'}
+              {this.state.language === 'pl' ? (
+                <>
+                  <span style={{ fontSize: '20px' }}>🇬🇧</span> EN
+                </>
+              ) : (
+                <>
+                  <span style={{ fontSize: '20px' }}>🇵🇱</span> PL
+                </>
+              )}
             </button>
 
             <Routes>

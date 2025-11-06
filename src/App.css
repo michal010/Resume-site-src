@@ -1,0 +1,30 @@
+/* Language Selector Styling */
+.language-selector button {
+  background-color: rgba(0, 0, 0, 0.7) !important;
+  border: 2px solid #11ABB0 !important;
+  border-radius: 8px !important;
+  padding: 8px 12px !important;
+  font-weight: bold !important;
+  color: white !important;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3) !important;
+}
+
+.language-selector button:hover {
+  background-color: rgba(17, 171, 176, 0.2) !important;
+}
+
+.language-selector ul {
+  background-color: rgba(0, 0, 0, 0.9) !important;
+  border: 2px solid #11ABB0 !important;
+  border-radius: 8px !important;
+  margin-top: 5px !important;
+}
+
+.language-selector ul li {
+  color: white !important;
+  padding: 10px !important;
+}
+
+.language-selector ul li:hover {
+  background-color: rgba(17, 171, 176, 0.3) !important;
+}
