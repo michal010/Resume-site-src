@@ -131,9 +131,10 @@
     "projects": [
       {
         "title": "Cirpong",
+        "category": "hobby",
         "shortDesc": {
-          "pl": "Komercyjna gra zręcznościowa na androida",
-          "en": "Commercial arcade game for Android"
+          "pl": "Pierwsza, pełna gra stworzona całkowicie przeze mnie.",
+          "en": "First, completed game created just by my own."
         },
         "url": "",
         "description": {
@@ -225,6 +226,7 @@
       },
       {
         "title": "Rule the Furniture",
+        "category":"hobby",
         "shortDesc": {
           "pl": "Projekt pracy inżynierskiej",
           "en": "Bachelor's thesis project"
@@ -317,8 +319,104 @@
           }
         ]
       },
+            {
+        "title": "Jello Jam",
+        "category":"hobby",
+        "shortDesc": {
+          "pl": "Pierwsza własna komercyjna gra na Androida",
+          "en": "First own commercial Android game "
+        },
+        "url": "",
+        "description": {
+          "pl": "Rule the furniture jest zręcznościową grą mobilną, napisaną na silniku Unity w języku C#. Jest to pierwszy, wykonany w całości projekt gry, będącej częścią praktyczną pracy inżynierskiej, większość assetów wykorzystanych w projekcie są assetami darmowymi, na licencji CC0, pozostałe zostały zrobione przeze mnie, głównie w darmowej aplikacji graifcznej Blender, muzyka w grze, efekty dźwiękowe oraz wszystkie skrypty zostały stworzone przeze mnie. Gra polega na doprowadzeniu piłki, sterowanej za pomocą joysticka, do kubka, będącego końcem poziomu. Otoczeniem gry, tak jak nazwa sugeruje, są meble oraz obiekty znajdujące się na nich. Oprócz joysticka, sterowanie odbywało się za pomocą przycisku funkcyjnego, który, w zależności od obecnego typu piłki, posiadał różne interackję - piłka tenisowa miała możliwość skoku, dzięki temu, że była lekka, skakała wyżej, lecz nie mogła przewracać niektórych obiektów, kula bilardowa natomiast, była cięższa, przez co skakała niżej, lecz można było przewracać obiekty takie jak notes - taka czynność była konieczna do rozwiązania niektórych poziomów (Ekran 'Example puzzle (knocking over notebook with heavy ball)'). Trzecim rodzajem piłki była piłka plażowa, która na przycisku funkcyjnym kurczyła bądź rozkurczała się, przez co mogła dostać się w miejsca niedostępne dla pozostałych dwóch typów piłek. Dodatkową cechą gry było zdobywanie porozrzucanych po danym poziomie gwiazdek (maks. 3), co wpływało na finalny wynik poziomu. Gra posiadała parę mechanik urozmaicających rozgrywkę - lód, blokujący sterowanie piłki, wentylatory odpychające piłkę w kierunku podmuchu wiatru, bądź gumki do ścierania odbijające piłkę.",
+          "en": "Rule the furniture is an arcade mobile game written in Unity engine using C#. This is the first, fully completed game project, which was the practical part of my engineering thesis, most of the assets used in the project are free assets under CC0 license, the rest were made by me, mainly in the free graphics application Blender, the music in the game, sound effects and all scripts were created by me. The game involves guiding a ball, controlled using a joystick, to a cup, which is the end of the level. The game environment, as the name suggests, consists of furniture and objects placed on them. Besides the joystick, control was done using a function button, which, depending on the current type of ball, had different interactions - the tennis ball could jump, and because it was light, it jumped higher, but couldn't knock over some objects, while the billiard ball was heavier, so it jumped lower, but could knock over objects like a notebook - this action was necessary to solve some levels (Screen 'Example puzzle (knocking over notebook with heavy ball)'). The third type of ball was a beach ball, which on the function button would shrink or expand, allowing it to access places inaccessible to the other two types of balls. An additional feature of the game was collecting stars scattered around a given level (max. 3), which affected the final level score. The game had several mechanics diversifying gameplay - ice blocking ball control, fans pushing the ball in the direction of the wind, or erasers bouncing the ball."
+        },
+        "images": [
+          {
+            "original": "images/portfolio/JelloJam/JJ1.png",
+            "thumbnail": "JJ2.png",
+            "description": {
+              "pl": "Menu Główne",
+              "en": "Main Menu"
+            }
+          },
+          {
+            "original": "https://i.imgur.com/N8icGnW.png",
+            "thumbnail": "https://i.imgur.com/N8icGnW.png",
+            "description": {
+              "pl": "Menu Opcji",
+              "en": "Options Menu"
+            }
+          },
+          {
+            "original": "https://i.imgur.com/DI6sOMP.png",
+            "thumbnail": "https://i.imgur.com/DI6sOMP.png",
+            "description": {
+              "pl": "Wybór Poziomu",
+              "en": "Level Selection"
+            }
+          },
+          {
+            "original": "https://i.imgur.com/DrQ73EH.png",
+            "thumbnail": "https://i.imgur.com/DrQ73EH.png",
+            "description": {
+              "pl": "Początek Poziomu",
+              "en": "Starting Level"
+            }
+          },
+          {
+            "original": "https://i.imgur.com/YW7mqtu.png",
+            "thumbnail": "https://i.imgur.com/YW7mqtu.png",
+            "description": {
+              "pl": "Mechanika Ślizgania",
+              "en": "Sliding Mechanics"
+            }
+          },
+          {
+            "original": "https://i.imgur.com/715gneP.png",
+            "thumbnail": "https://i.imgur.com/715gneP.png",
+            "description": {
+              "pl": "Ekran Ukończenia Poziomu",
+              "en": "Level Completed Screen"
+            }
+          },
+          {
+            "original": "https://i.imgur.com/lm8YBco.png",
+            "thumbnail": "https://i.imgur.com/lm8YBco.png",
+            "description": {
+              "pl": "Przykładowa łamigłówka (przewracanie notesu cięższą piłką)",
+              "en": "Example puzzle (knocking over notebook with heavy ball)"
+            }
+          },
+          {
+            "original": "https://i.imgur.com/HbhCF6i.png",
+            "thumbnail": "https://i.imgur.com/HbhCF6i.png",
+            "description": {
+              "pl": "Różne typy piłek",
+              "en": "Different ball types"
+            }
+          },
+          {
+            "original": "https://i.imgur.com/KJGae8b.png",
+            "thumbnail": "https://i.imgur.com/KJGae8b.png",
+            "description": {
+              "pl": "Ekran Pauzy",
+              "en": "Pause Screen"
+            }
+          },
+          {
+            "original": "https://i.imgur.com/cWqHN0T.png",
+            "thumbnail": "https://i.imgur.com/cWqHN0T.png",
+            "description": {
+              "pl": "Mechanika klimatyzatora (odpychanie piłki w kierunku wiatru)",
+              "en": "Air conditioner mechanics (pushing ball in the direction of the wind)"
+            }
+          }
+        ]
+      },
       {
             "title": "BillGuide",
+            "category":"professional",
             "shortDesc": "Praca w firmie Billennium",
             "url": "",
             "description" : {
