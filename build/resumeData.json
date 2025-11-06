@@ -1,22 +1,31 @@
 {
   "main": {
     "name": "Michał Popielarz",
-    "occupation": "",
-    "description": "Odwieczny gracz, z pasją do tworzenia gier",
+    "occupation": {
+      "pl": "",
+      "en": ""
+    },
+    "description": {
+      "pl": "Odwieczny gracz, z pasją do tworzenia gier",
+      "en": "Eternal gamer, with a passion for creating games"
+    },
     "image": "profilepic.jpg",
-    "fileCV": "CV_Michał_Popielarz.docx",
-    "bio": "Jestem osobą kreatywną, szukającą rozwiązań, bądź alternatywnego podejścia dla danego problemu, lubiącą angażować się w rozwój projektu, poprzez dostarczanie nowych pomysłów. Przygodę z programowaniem rozpocząłem w liceum, zaczynając od C++, w czasie studiów poznałem język C#, w którym obecnie programuję. Potrafię szybko się uczyć, lubię podejmować nowe wyzwania, znam dobrze język angielski - nie mam problemu w komunikacji w tym języku, posiadam First Cambridge Certificate. Ukończyłem studia inżynierskie na kierunku Informatyka Ogólna, obecnie posiadam absolutorium studiów magisterskich na kierunku Projektowanie Systemów Informatycznych i Sieci Komputerowych. Od zawsze pasjonowałem się grami, a moim marzeniem jest pracować w branży gier. Przygodę z tworzeniem gier zacząłem mając około 14 lat. Zacząłem od edytora świata gry Warcraft 3, w którym skrypty tworzone są w języku LUA, bądź za pomocą wbudowanego edytora. Używałem również programów Game Maker oraz RPG Maker. Pierwszy kontakt z silnikiem Unity miałem w czasie liceum, lecz pierwsze hobbistyczne projekty stworzyłem dopiero po zapoznaniu się z językiem C# w czasie studiów.",
-    "contactmessage": "Here is where you should write your message to readers to have them get in contact with you.",
+    "fileCV": {
+      "pl": "CV_Michał_Popielarz_PL.docx",
+      "en": "CV_Michał_Popielarz_EN.docx"
+    },
+    "bio": {
+      "pl": "Jestem osobą kreatywną, szukającą rozwiązań, bądź alternatywnego podejścia dla danego problemu, lubiącą angażować się w rozwój projektu, poprzez dostarczanie nowych pomysłów. Przygodę z programowaniem rozpocząłem w liceum, zaczynając od C++, w czasie studiów poznałem język C#, w którym obecnie programuję. Potrafię szybko się uczyć, lubię podejmować nowe wyzwania, znam dobrze język angielski - nie mam problemu w komunikacji w tym języku, posiadam First Cambridge Certificate. Ukończyłem studia inżynierskie na kierunku Informatyka Ogólna, obecnie posiadam absolutorium studiów magisterskich na kierunku Projektowanie Systemów Informatycznych i Sieci Komputerowych. Od zawsze pasjonowałem się grami, a moim marzeniem jest pracować w branży gier. Przygodę z tworzeniem gier zacząłem mając około 14 lat. Zacząłem od edytora świata gry Warcraft 3, w którym skrypty tworzone są w języku LUA, bądź za pomocą wbudowanego edytora. Używałem również programów Game Maker oraz RPG Maker. Pierwszy kontakt z silnikiem Unity miałem w czasie liceum, lecz pierwsze hobbistyczne projekty stworzyłem dopiero po zapoznaniu się z językiem C# w czasie studiów.",
+      "en": "I am a creative person, looking for solutions or alternative approaches to problems, who likes to engage in project development by providing new ideas. I started my programming adventure in high school, beginning with C++, and during my studies I learned C#, which I currently program in. I can learn quickly, I like to take on new challenges, I know English well - I have no problem communicating in this language, I have the First Cambridge Certificate. I completed my engineering degree in General Computer Science, and I currently have completed coursework for my master's degree in IT Systems and Computer Networks Design. I have always been passionate about games, and my dream is to work in the gaming industry. I started creating games when I was about 14 years old. I started with the Warcraft 3 world editor, in which scripts are created in LUA language or using the built-in editor. I also used Game Maker and RPG Maker programs. I had my first contact with the Unity engine during high school, but I only created my first hobby projects after learning C# during my studies."
+    },
     "email": "michael010pl@gmail.com",
-    "phone": "516-483-295",
+    "phone": "",
     "address": {
       "street": "",
       "city": "",
       "state": "",
       "zip": ""
     },
-    "website": "http://www.timbakerdev.com",
-    "resumedownload": "http://timbakerdev.com",
     "social": [
       {
         "name": "facebook",
@@ -36,19 +45,30 @@
     ]
   },
   "resume": {
-    "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
     "education": [
       {
-        "school": "Uniwersytet Warmińsko-Mazurski w Olsztynie",
-        "degree": "Magister",
-        "graduated": "02.2018 - Obecnie",
-        "description": "Posiadam absolutorium na kierunku Projektowanie Systemów Informatycznych i Sieci Komputerowych. Planuję podejść do obrony w przyszłości."
+        "school": "University of Warmia and Mazury in Olsztyn",
+        "degree": {
+          "pl": "Magister",
+          "en": "Master's Degree"
+        },
+        "graduated": "02.2018 - Present",
+        "description": {
+          "pl": "Posiadam absolutorium na kierunku Projektowanie Systemów Informatycznych i Sieci Komputerowych. Planuję podejść do obrony w przyszłości.",
+          "en": "I have completed coursework in IT Systems and Computer Networks Design. I plan to defend my thesis in the future."
+        }
       },
       {
-        "school": "Uniwersytet Warmińsko-Mazurski w Olsztynie",
-        "degree": "Inżynier",
+        "school": "University of Warmia and Mazury in Olsztyn",
+        "degree": {
+          "pl": "Inżynier",
+          "en": "Bachelor's Degree"
+        },
         "graduated": "10.2014-02.2018",
-        "description": "Ukończone studia na kierunku Informatyka Ogólna"
+        "description": {
+          "pl": "Ukończone studia na kierunku Informatyka Ogólna",
+          "en": "Completed studies in General Computer Science"
+        }
       }
     ],
     "work": [
@@ -56,33 +76,54 @@
         "company": "Billennium",
         "title": "Unity Developer",
         "years": "12.2018 - 02.2020",
-        "description": "Praca w firmie Billennium jako Unity Developer, podczas pracy nauczyłem się pracować w systemie Agile, ponadto poznałem wbudowany system kontrolii wersji Unity (Collab), nauczyłem się tworzyć zapytania do backendu, zapoznałem się ze stroną Trello, ułatwiającą pracę w grupie, zapoznałem się z frameworkami pozwalającymi na odczytywanie kodów QR bądź kodów kreskowych, pogłębiłem swoją wiedzę na temat frameworku Vuforia do tworzenia projektów AR/VR (miałem już styczność z tym frameworkiem podczas tworzenia pracy magisterskiej). Nauczyłem się kompilować projekty mobilne na system iOS (umiem również tworzyć projekty Unity na system Android). Pogłębiłem swoją wiedzę odnośnie możliwości WebGL'a. Nauczyłem się komunikacji między stroną a osadzoną na niej aplikacją Unity. Poznałem działanie narzędzia swagger, oraz zapoznałem się z notyfikacją JSON.   Poznałem podstawy programu Inkscape, oraz zgłębiłem swoją wiedzę odnośnie grafiki komputerowej."
+        "description": {
+          "pl": "Praca w firmie Billennium jako Unity Developer, podczas pracy nauczyłem się pracować w systemie Agile, ponadto poznałem wbudowany system kontrolii wersji Unity (Collab), nauczyłem się tworzyć zapytania do backendu, zapoznałem się ze stroną Trello, ułatwiającą pracę w grupie, zapoznałem się z frameworkami pozwalającymi na odczytywanie kodów QR bądź kodów kreskowych, pogłębiłem swoją wiedzę na temat frameworku Vuforia do tworzenia projektów AR/VR (miałem już styczność z tym frameworkiem podczas tworzenia pracy magisterskiej). Nauczyłem się kompilować projekty mobilne na system iOS (umiem również tworzyć projekty Unity na system Android). Pogłębiłem swoją wiedzę odnośnie możliwości WebGL'a. Nauczyłem się komunikacji między stroną a osadzoną na niej aplikacją Unity. Poznałem działanie narzędzia swagger, oraz zapoznałem się z notyfikacją JSON. Poznałem podstawy programu Inkscape, oraz zgłębiłem swoją wiedzę odnośnie grafiki komputerowej.",
+          "en": "Working at Billennium as a Unity Developer, I learned to work in an Agile system, and also got to know Unity's built-in version control system (Collab), learned to create backend queries, familiarized myself with Trello for team collaboration, learned frameworks for reading QR codes or barcodes, deepened my knowledge of the Vuforia framework for creating AR/VR projects (I had already encountered this framework while creating my master's thesis). I learned to compile mobile projects for iOS (I can also create Unity projects for Android). I deepened my knowledge of WebGL capabilities. I learned communication between a website and a Unity application embedded in it. I learned about the Swagger tool and familiarized myself with JSON notation. I learned the basics of Inkscape and deepened my knowledge of computer graphics."
+        }
       }
     ],
     "skills": [
       {
         "name": "Unity",
-        "description": "Pierwszy kontakt z Unity miałem w 2012 roku, jednakże tajniki silnika zacząłem zgłębiać dopiero w czasie studiów, w trakcie nauki języka C#. Pierwszą, ukończoną grą było Rule The Furniture - mobilna, trójwymiarowa gra zręcznościowo-logicza, będąca częścią pracy inżynierskiej. Ponadto z Unity korzystałem będąc na 24 godzinnym maratonie programowania - Gamelake Jam odbywającym się w 'Centrum Nauki Kopernik', gdzie, wraz z ekipą, stworzyliśmy prototyp gry nawiązującej do tematyki 'Grawitacja nie istnieje'. Obecnie tworzę projekt komercyjnej gry mobilnej Cirpong, oraz część praktyczną pracy magisterskiej. Oprócz projektów hobbistycznych posiadam ponad rok doświadczenia zawodowego. Podczas wieloletniego korzystania z Unity miałem styczność z Scriptable Objectami, Asset Bundle, zapytaniami HTTP, serializacją oraz deserializacją JSON, frameworkiem Vuforia, frameworkami do obsługi kodów QR oraz kodów kreskowych, Unity Event, Unity Action, URP, HDRP, LWRP, Coroutine, VFX Graph, Shader Graph, UI (w tym tworzenie modularnych okien), Animation State Machine, Collab, komunikacją między stroną a osadzoną na niej aplikacji WebGL, tworzeniem projektów na Androida, iOS'a, WebGL'a oraz Windows."
+        "description": {
+          "pl": "Pierwszy kontakt z Unity miałem w 2012 roku, jednakże tajniki silnika zacząłem zgłębiać dopiero w czasie studiów, w trakcie nauki języka C#. Pierwszą, ukończoną grą było Rule The Furniture - mobilna, trójwymiarowa gra zręcznościowo-logicza, będąca częścią pracy inżynierskiej. Ponadto z Unity korzystałem będąc na 24 godzinnym maratonie programowania - Gamelake Jam odbywającym się w 'Centrum Nauki Kopernik', gdzie, wraz z ekipą, stworzyliśmy prototyp gry nawiązującej do tematyki 'Grawitacja nie istnieje'. Obecnie tworzę projekt komercyjnej gry mobilnej Cirpong, oraz część praktyczną pracy magisterskiej. Oprócz projektów hobbistycznych posiadam ponad rok doświadczenia zawodowego. Podczas wieloletniego korzystania z Unity miałem styczność z Scriptable Objectami, Asset Bundle, zapytaniami HTTP, serializacją oraz deserializacją JSON, frameworkiem Vuforia, frameworkami do obsługi kodów QR oraz kodów kreskowych, Unity Event, Unity Action, URP, HDRP, LWRP, Coroutine, VFX Graph, Shader Graph, UI (w tym tworzenie modularnych okien), Animation State Machine, Collab, komunikacją między stroną a osadzoną na niej aplikacji WebGL, tworzeniem projektów na Androida, iOS'a, WebGL'a oraz Windows.",
+          "en": "My first contact with Unity was in 2012, however I only started delving into the engine's secrets during my studies, while learning C#. My first completed game was Rule The Furniture - a mobile, three-dimensional arcade-logic game, which was part of my engineering thesis. I also used Unity during a 24-hour programming marathon - Gamelake Jam held at the 'Copernicus Science Centre', where, together with a team, we created a game prototype based on the theme 'Gravity doesn't exist'. Currently I'm creating a commercial mobile game project Cirpong, as well as the practical part of my master's thesis. Besides hobby projects, I have over a year of professional experience. During years of using Unity, I have worked with Scriptable Objects, Asset Bundles, HTTP requests, JSON serialization and deserialization, Vuforia framework, frameworks for handling QR codes and barcodes, Unity Event, Unity Action, URP, HDRP, LWRP, Coroutine, VFX Graph, Shader Graph, UI (including creating modular windows), Animation State Machine, Collab, communication between a website and a WebGL application embedded in it, creating projects for Android, iOS, WebGL and Windows."
+        }
       },
       {
         "name": "C#",
-        "description": "Język ten znam na poziomie średnim/średnio-zaawansowanym. Potrafię korzystać z mocy obiektowości - polimorfizmu, interfejsów, struktur, delegatów, akcji, funkcji. W języku C# stworzyłem projekt odtwarzacza muzyki, automatycznego bota do discorda łączącego się z API w celu pomagania nowym graczom w grze MMO, program łączący się z API przetrzymującym dane kart do gry Hearthstone (nieukończony projekt) oraz program do czatu przez internet będącym dodatkowym projektem na studiach - korzystał z wielowątkowości oraz połączeń socketowych."
+        "description": {
+          "pl": "Język ten znam na poziomie średnim/średnio-zaawansowanym. Potrafię korzystać z mocy obiektowości - polimorfizmu, interfejsów, struktur, delegatów, akcji, funkcji. W języku C# stworzyłem projekt odtwarzacza muzyki, automatycznego bota do discorda łączącego się z API w celu pomagania nowym graczom w grze MMO, program łączący się z API przetrzymującym dane kart do gry Hearthstone (nieukończony projekt) oraz program do czatu przez internet będącym dodatkowym projektem na studiach - korzystał z wielowątkowości oraz połączeń socketowych.",
+          "en": "I know this language at an intermediate/semi-advanced level. I can use the power of object-oriented programming - polymorphism, interfaces, structures, delegates, actions, functions. In C# I created a music player project, an automatic Discord bot connecting to an API to help new players in an MMO game, a program connecting to an API holding Hearthstone card game data (unfinished project), and an internet chat program which was an additional university project - it used multithreading and socket connections."
+        }
       },
       {
         "name": "C++",
-        "description": "Z językiem C++ miałem styczność w liceum oraz na studiach, znam jego podstawy, umiem posługiwać się znacznikami, tworzyć klasy, stuktury oraz inne podstawowe elementy języka."
+        "description": {
+          "pl": "Z językiem C++ miałem styczność w liceum oraz na studiach, znam jego podstawy, umiem posługiwać się znacznikami, tworzyć klasy, stuktury oraz inne podstawowe elementy języka.",
+          "en": "I had contact with C++ in high school and during my studies, I know its basics, I can use pointers, create classes, structures and other basic language elements."
+        }
       },
       {
         "name": "Blender",
-        "description": "Niestety, nie jestem jeszcze grafikiem komputerowym, jednakże chęć rozwoju dała mi możliwość poznania podstatowych elementów grafiki komputerowej - wiem, z czego składają się tekstury i czym składowe tekstur są (Ambient Occlusion map, Roughness map, Height map, Diffuse map, Metallic map itp.). Posiadam podstawową wiedzę jak działają animacje, wiem również do czego służy UV mapa, po co są 'normals' w face bądź vertexach, wiem również do czego służy weight painting. Oprócz wiedzy teoretycznej, osobiście potrafię stowrzyć prosty, oteksturowany model z bardzo prostą animacją."
+        "description": {
+          "pl": "Niestety, nie jestem jeszcze grafikiem komputerowym, jednakże chęć rozwoju dała mi możliwość poznania podstatowych elementów grafiki komputerowej - wiem, z czego składają się tekstury i czym składowe tekstur są (Ambient Occlusion map, Roughness map, Height map, Diffuse map, Metallic map itp.). Posiadam podstawową wiedzę jak działają animacje, wiem również do czego służy UV mapa, po co są 'normals' w face bądź vertexach, wiem również do czego służy weight painting. Oprócz wiedzy teoretycznej, osobiście potrafię stowrzyć prosty, oteksturowany model z bardzo prostą animacją.",
+          "en": "Unfortunately, I'm not yet a computer graphics artist, however the desire to develop gave me the opportunity to learn the basic elements of computer graphics - I know what textures consist of and what texture components are (Ambient Occlusion map, Roughness map, Height map, Diffuse map, Metallic map, etc.). I have basic knowledge of how animations work, I also know what UV maps are for, why there are normals in faces or vertices, I also know what weight painting is for. Besides theoretical knowledge, I can personally create a simple, textured model with a very simple animation."
+        }
       },
       {
         "name": "Inkscape",
-        "description": "Jest to darmowy program do grafiki wektorowej (z możliwością eksportu w formie grafiki rastrowej). Potrzeba tworzenia własnych elementów graficznych do hobbistycznych projektów zainspirowały mnie do podjęcia nauki tego programu. Potrafię stworzyć proste elementy graficzne wykorzystywane głównie w UI w Unity."
+        "description": {
+          "pl": "Jest to darmowy program do grafiki wektorowej (z możliwością eksportu w formie grafiki rastrowej). Potrzeba tworzenia własnych elementów graficznych do hobbistycznych projektów zainspirowały mnie do podjęcia nauki tego programu. Potrafię stworzyć proste elementy graficzne wykorzystywane głównie w UI w Unity.",
+          "en": "This is a free vector graphics program (with the ability to export as raster graphics). The need to create my own graphic elements for hobby projects inspired me to learn this program. I can create simple graphic elements used mainly in UI in Unity."
+        }
       },
       {
         "name": "Materialize",
-        "description": "Jest to darmowy program do tworzenia Height, Normal, Metallic, Smoothness, Edge oraz AO map. Wykorzystuję go do projektów hobbistycznych, warto dodać, że twórcy Uncharted wykorzystywali go do tworzenia elementów otoczenia w 1 oraz 2 odsłonie gry tej serii."
+        "description": {
+          "pl": "Jest to darmowy program do tworzenia Height, Normal, Metallic, Smoothness, Edge oraz AO map. Wykorzystuję go do projektów hobbistycznych, warto dodać, że twórcy Uncharted wykorzystywali go do tworzenia elementów otoczenia w 1 oraz 2 odsłonie gry tej serii.",
+          "en": "This is a free program for creating Height, Normal, Metallic, Smoothness, Edge and AO maps. I use it for hobby projects, it's worth noting that the creators of Uncharted used it to create environmental elements in the 1st and 2nd installments of this game series."
+        }
       }
     ]
   },
@@ -90,125 +131,200 @@
     "projects": [
       {
         "title": "Cirpong",
-        "shortDesc": "Komercyjna gra zręcznościowa na androida",
-        "url": "",
-        "description" : "Komercyjna, jednoosobowa, zręcznościowa gra mobilna (w produkcji) pisana na silniku Unity w języku C#. Jest to połączenie klasycznego pong-a z lekkim twistem - paletka porusza się po orbicie, a zamiast rywalizacji z innym graczem, gracz ma za zadanie zniszczyć wszystkie cegiełki widoczne na ekranie poprzez odbijanie od nich piłki. Styl graficzny gry, w dużej mierze opiera się na neonowym wyglądzie, uzyskanym za pomocą Post-Processingu. Wszystkie graficzne elemnty gry zostały wykonane za pomocą darmowego programu do grafiki wektorowej Inkscape. Gra posiada dwa tryby - Endless, w pełni działający, polegający na zdobyciu jak największej liczby punktów do momentu wypadnięcia piłki poza ekran (w przypadku zniszczenia wszystkich cegiełek zostaje wygenerowany nowy poziom), oraz Adventure pozwalający na przechodzenie poziomów progresywnie, z coraz to większym poziomem trudności, każde przejście poziomu jest oceniane systemem gwiazdek (od 0 do 3, wraz z połówkami), co widać na ekranie Level Selection, gwiazdki są przyznawane na podstawie zdobytych punktów na danym poziomie, a algorytm wyznacza ilość punktów potrzebnych na zdobycie połowy gwiazdki - dzięki czemu można zdeterminować wymaganą ilość punktów na uzyskanie maksymalnego wyniku. Tryb ten nie jest jeszcze w pełni sprawny, wymaga wprowadzenia paru poprawek. Dodatkowo gra została urozmaicona o możliwość odblokowania tzw. power-upów (ekran Upgrades Shop Menu), dzięki którym, podczas zbijania cegiełek jest szansa na pojawienie się ulepszenia (symbolizowane jasnoniebieską, transparetną sferą z ikoną w środku, odpowiadającą danemu power-upowi), które zostaje aktywowane w momencie przejścia piłki przez nie.",
-        "images" : [ 
-            {
-                "original": "https://i.imgur.com/xSFfiED.png",
-                "thumbnail": "https://i.imgur.com/xSFfiED.png",
-                "description": "Main Menu (WIP)"
-            },
-            {
-                "original" : "https://i.imgur.com/CB6iYM2.png",
-                "thumbnail" : "https://i.imgur.com/CB6iYM2.png",
-                "description": "Options Menu (WIP)"
-            },
-            {
-                "original": "https://i.imgur.com/l799YqW.png",
-                "thumbnail": "https://i.imgur.com/l799YqW.png",
-                "description": "Upgrades Shop Menu (WIP)"
-            },
-            {
-                "original": "https://i.imgur.com/nVdU699.png",
-                "thumbnail": "https://i.imgur.com/nVdU699.png",
-                "description": "Upgrades Shop Menu (WIP)"
-            },
-            {
-                "original": "https://i.imgur.com/GmXkUus.png",
-                "thumbnail": "https://i.imgur.com/GmXkUus.png",
-                "description": "Game Mode Selection (WIP)"
-            },
-            {
-                "original": "https://i.imgur.com/ejJKgac.png",
-                "thumbnail": "https://i.imgur.com/ejJKgac.png",
-                "description": "Level Selection (WIP)"
-            },
-            {
-                "original": "https://i.imgur.com/CTatdul.png",
-                "thumbnail": "https://i.imgur.com/CTatdul.png",
-                "description": "Gameplay (WIP)"
-            },
-            {
-                "original": "https://i.imgur.com/XWQgDtO.png",
-                "thumbnail": "https://i.imgur.com/XWQgDtO.png",
-                "description": "Gameplay (WIP)"
-            },
-            {
-                "original": "https://i.imgur.com/vjG1fse.png",
-                "thumbnail": "https://i.imgur.com/vjG1fse.png",
-                "description": "Gameplay (WIP)"
-            },
-            {
-                "original": "https://i.imgur.com/9gGombi.png",
-                "thumbnail": "https://i.imgur.com/9gGombi.png",
-                "description": "End Screen (WIP)"
-            }
-          ]
+        "shortDesc": {
+          "pl": "Komercyjna gra zręcznościowa na androida",
+          "en": "Commercial arcade game for Android"
         },
-        {
-          "title": "Rule the Furniture",
-          "shortDesc": "Projekt pracy inżynierskiej",
-          "url": "",
-          "description" : "Rule the furniture jest zręcznościową grą mobilną, napisaną na silniku Unity w języku C#. Jest to pierwszy, wykonany w całości projekt gry, będącej częścią praktyczną pracy inżynierskiej, większość assetów wykorzystanych w projekcie są assetami darmowymi, na licencji CC0, pozostałe zostały zrobione przeze mnie, głównie w darmowej aplikacji graifcznej Blender, muzyka w grze, efekty dźwiękowe oraz wszystkie skrypty zostały stworzone przeze mnie. Gra polega na doprowadzeniu piłki, sterowanej za pomocą joysticka, do kubka, będącego końcem poziomu. Otoczeniem gry, tak jak nazwa sugeruje, są meble oraz obiekty znajdujące się na nich. Oprócz joysticka, sterowanie odbywało się za pomocą przycisku funkcyjnego, który, w zależności od obecnego typu piłki, posiadał różne interackję - piłka tenisowa miała możliwość skoku, dzięki temu, że była lekka, skakała wyżej, lecz nie mogła przewracać niektórych obiektów, kula bilardowa natomiast, była cięższa, przez co skakała niżej, lecz można było przewracać obiekty takie jak notes - taka czynność była konieczna do rozwiązania niektórych poziomów (Ekran 'Example puzzle (knocking over notebook with heavy ball)'). Trzecim rodzajem piłki była piłka plażowa, która na przycisku funkcyjnym kurczyła bądź rozkurczała się, przez co mogła dostać się w miejsca niedostępne dla pozostałych dwóch typów piłek. Dodatkową cechą gry było zdobywanie porozrzucanych po danym poziomie gwiazdek (maks. 3), co wpływało na finalny wynik poziomu. Gra posiadała parę mechanik urozmaicających rozgrywkę - lód, blokujący sterowanie piłki, wentylatory odpychające piłkę w kierunku podmuchu wiatru, bądź gumki do ścierania odbijające piłkę.",
-          "images" : [ 
-              {
-                  "original": "https://i.imgur.com/euh4Cbx.png",
-                  "thumbnail": "https://i.imgur.com/euh4Cbx.png",
-                  "description": "Main Menu"
-              },
-              {
-                  "original" : "https://i.imgur.com/N8icGnW.png",
-                  "thumbnail" : "https://i.imgur.com/N8icGnW.png",
-                  "description": "Options Menu"
-              },
-              {
-                  "original": "https://i.imgur.com/DI6sOMP.png",
-                  "thumbnail": "https://i.imgur.com/DI6sOMP.png",
-                  "description": "Level Selection"
-              },
-              {
-                  "original": "https://i.imgur.com/DrQ73EH.png",
-                  "thumbnail": "https://i.imgur.com/DrQ73EH.png",
-                  "description": "Starting Level"
-              },
-              {
-                  "original": "https://i.imgur.com/YW7mqtu.png",
-                  "thumbnail": "https://i.imgur.com/YW7mqtu.png",
-                  "description": "Sliding mechanics"
-              },
-              {
-                  "original": "https://i.imgur.com/715gneP.png",
-                  "thumbnail": "https://i.imgur.com/715gneP.png",
-                  "description": "Level Completed Screen"
-              },
-              {
-                  "original": "https://i.imgur.com/lm8YBco.png",
-                  "thumbnail": "https://i.imgur.com/lm8YBco.png",
-                  "description": "Example puzzle (knocking over notebook with heavy ball)"
-              },
-              {
-                  "original": "https://i.imgur.com/HbhCF6i.png",
-                  "thumbnail": "https://i.imgur.com/HbhCF6i.png",
-                  "description": "Diffrent ball types"
-              },
-              {
-                  "original": "https://i.imgur.com/KJGae8b.png",
-                  "thumbnail": "https://i.imgur.com/KJGae8b.png",
-                  "description": "Pause Screen"
-              },
-              {
-                  "original": "https://i.imgur.com/cWqHN0T.png",
-                  "thumbnail": "https://i.imgur.com/cWqHN0T.png",
-                  "description": "Air conditioner mechanics (pushing ball in the direction of the wind)"
-              }
-            ]
+        "url": "",
+        "description": {
+          "pl": "Komercyjna, jednoosobowa, zręcznościowa gra mobilna (w produkcji) pisana na silniku Unity w języku C#. Jest to połączenie klasycznego pong-a z lekkim twistem - paletka porusza się po orbicie, a zamiast rywalizacji z innym graczem, gracz ma za zadanie zniszczyć wszystkie cegiełki widoczne na ekranie poprzez odbijanie od nich piłki. Styl graficzny gry, w dużej mierze opiera się na neonowym wyglądzie, uzyskanym za pomocą Post-Processingu. Wszystkie graficzne elemnty gry zostały wykonane za pomocą darmowego programu do grafiki wektorowej Inkscape. Gra posiada dwa tryby - Endless, w pełni działający, polegający na zdobyciu jak największej liczby punktów do momentu wypadnięcia piłki poza ekran (w przypadku zniszczenia wszystkich cegiełek zostaje wygenerowany nowy poziom), oraz Adventure pozwalający na przechodzenie poziomów progresywnie, z coraz to większym poziomem trudności, każde przejście poziomu jest oceniane systemem gwiazdek (od 0 do 3, wraz z połówkami), co widać na ekranie Level Selection, gwiazdki są przyznawane na podstawie zdobytych punktów na danym poziomie, a algorytm wyznacza ilość punktów potrzebnych na zdobycie połowy gwiazdki - dzięki czemu można zdeterminować wymaganą ilość punktów na uzyskanie maksymalnego wyniku. Tryb ten nie jest jeszcze w pełni sprawny, wymaga wprowadzenia paru poprawek. Dodatkowo gra została urozmaicona o możliwość odblokowania tzw. power-upów (ekran Upgrades Shop Menu), dzięki którym, podczas zbijania cegiełek jest szansa na pojawienie się ulepszenia (symbolizowane jasnoniebieską, transparetną sferą z ikoną w środku, odpowiadającą danemu power-upowi), które zostaje aktywowane w momencie przejścia piłki przez nie.",
+          "en": "A commercial, single-person, arcade mobile game (in production) written in Unity engine using C#. It's a combination of classic pong with a slight twist - the paddle moves around an orbit, and instead of competing with another player, the player's task is to destroy all the bricks visible on the screen by bouncing the ball off them. The game's graphic style is largely based on a neon look, achieved using Post-Processing. All graphic elements of the game were created using the free vector graphics program Inkscape. The game has two modes - Endless, fully functional, focused on achieving the highest score until the ball falls off the screen (if all bricks are destroyed, a new level is generated), and Adventure allowing progression through levels with increasing difficulty, each level completion is rated with a star system (from 0 to 3, including halves), as seen on the Level Selection screen, stars are awarded based on points scored on a given level, and the algorithm determines the number of points needed to earn half a star - allowing determination of the required points to achieve the maximum score. This mode is not yet fully functional and requires some fixes. Additionally, the game has been enriched with the ability to unlock power-ups (Upgrades Shop Menu screen), through which, while breaking bricks, there is a chance for an upgrade to appear (symbolized by a light blue, transparent sphere with an icon in the middle corresponding to the given power-up), which is activated when the ball passes through it."
+        },
+        "images": [
+          {
+            "original": "https://i.imgur.com/xSFfiED.png",
+            "thumbnail": "https://i.imgur.com/xSFfiED.png",
+            "description": {
+              "pl": "Menu Główne (WIP)",
+              "en": "Main Menu (WIP)"
+            }
           },
           {
+            "original": "https://i.imgur.com/CB6iYM2.png",
+            "thumbnail": "https://i.imgur.com/CB6iYM2.png",
+            "description": {
+              "pl": "Menu Opcji (WIP)",
+              "en": "Options Menu (WIP)"
+            }
+          },
+          {
+            "original": "https://i.imgur.com/l799YqW.png",
+            "thumbnail": "https://i.imgur.com/l799YqW.png",
+            "description": {
+              "pl": "Menu Sklepu z Ulepszeniami (WIP)",
+              "en": "Upgrades Shop Menu (WIP)"
+            }
+          },
+          {
+            "original": "https://i.imgur.com/nVdU699.png",
+            "thumbnail": "https://i.imgur.com/nVdU699.png",
+            "description": {
+              "pl": "Menu Sklepu z Ulepszeniami (WIP)",
+              "en": "Upgrades Shop Menu (WIP)"
+            }
+          },
+          {
+            "original": "https://i.imgur.com/GmXkUus.png",
+            "thumbnail": "https://i.imgur.com/GmXkUus.png",
+            "description": {
+              "pl": "Wybór Trybu Gry (WIP)",
+              "en": "Game Mode Selection (WIP)"
+            }
+          },
+          {
+            "original": "https://i.imgur.com/ejJKgac.png",
+            "thumbnail": "https://i.imgur.com/ejJKgac.png",
+            "description": {
+              "pl": "Wybór Poziomu (WIP)",
+              "en": "Level Selection (WIP)"
+            }
+          },
+          {
+            "original": "https://i.imgur.com/CTatdul.png",
+            "thumbnail": "https://i.imgur.com/CTatdul.png",
+            "description": {
+              "pl": "Rozgrywka (WIP)",
+              "en": "Gameplay (WIP)"
+            }
+          },
+          {
+            "original": "https://i.imgur.com/XWQgDtO.png",
+            "thumbnail": "https://i.imgur.com/XWQgDtO.png",
+            "description": {
+              "pl": "Rozgrywka (WIP)",
+              "en": "Gameplay (WIP)"
+            }
+          },
+          {
+            "original": "https://i.imgur.com/vjG1fse.png",
+            "thumbnail": "https://i.imgur.com/vjG1fse.png",
+            "description": {
+              "pl": "Rozgrywka (WIP)",
+              "en": "Gameplay (WIP)"
+            }
+          },
+          {
+            "original": "https://i.imgur.com/9gGombi.png",
+            "thumbnail": "https://i.imgur.com/9gGombi.png",
+            "description": {
+              "pl": "Ekran Końcowy (WIP)",
+              "en": "End Screen (WIP)"
+            }
+          }
+        ]
+      },
+      {
+        "title": "Rule the Furniture",
+        "shortDesc": {
+          "pl": "Projekt pracy inżynierskiej",
+          "en": "Bachelor's thesis project"
+        },
+        "url": "",
+        "description": {
+          "pl": "Rule the furniture jest zręcznościową grą mobilną, napisaną na silniku Unity w języku C#. Jest to pierwszy, wykonany w całości projekt gry, będącej częścią praktyczną pracy inżynierskiej, większość assetów wykorzystanych w projekcie są assetami darmowymi, na licencji CC0, pozostałe zostały zrobione przeze mnie, głównie w darmowej aplikacji graifcznej Blender, muzyka w grze, efekty dźwiękowe oraz wszystkie skrypty zostały stworzone przeze mnie. Gra polega na doprowadzeniu piłki, sterowanej za pomocą joysticka, do kubka, będącego końcem poziomu. Otoczeniem gry, tak jak nazwa sugeruje, są meble oraz obiekty znajdujące się na nich. Oprócz joysticka, sterowanie odbywało się za pomocą przycisku funkcyjnego, który, w zależności od obecnego typu piłki, posiadał różne interackję - piłka tenisowa miała możliwość skoku, dzięki temu, że była lekka, skakała wyżej, lecz nie mogła przewracać niektórych obiektów, kula bilardowa natomiast, była cięższa, przez co skakała niżej, lecz można było przewracać obiekty takie jak notes - taka czynność była konieczna do rozwiązania niektórych poziomów (Ekran 'Example puzzle (knocking over notebook with heavy ball)'). Trzecim rodzajem piłki była piłka plażowa, która na przycisku funkcyjnym kurczyła bądź rozkurczała się, przez co mogła dostać się w miejsca niedostępne dla pozostałych dwóch typów piłek. Dodatkową cechą gry było zdobywanie porozrzucanych po danym poziomie gwiazdek (maks. 3), co wpływało na finalny wynik poziomu. Gra posiadała parę mechanik urozmaicających rozgrywkę - lód, blokujący sterowanie piłki, wentylatory odpychające piłkę w kierunku podmuchu wiatru, bądź gumki do ścierania odbijające piłkę.",
+          "en": "Rule the furniture is an arcade mobile game written in Unity engine using C#. This is the first, fully completed game project, which was the practical part of my engineering thesis, most of the assets used in the project are free assets under CC0 license, the rest were made by me, mainly in the free graphics application Blender, the music in the game, sound effects and all scripts were created by me. The game involves guiding a ball, controlled using a joystick, to a cup, which is the end of the level. The game environment, as the name suggests, consists of furniture and objects placed on them. Besides the joystick, control was done using a function button, which, depending on the current type of ball, had different interactions - the tennis ball could jump, and because it was light, it jumped higher, but couldn't knock over some objects, while the billiard ball was heavier, so it jumped lower, but could knock over objects like a notebook - this action was necessary to solve some levels (Screen 'Example puzzle (knocking over notebook with heavy ball)'). The third type of ball was a beach ball, which on the function button would shrink or expand, allowing it to access places inaccessible to the other two types of balls. An additional feature of the game was collecting stars scattered around a given level (max. 3), which affected the final level score. The game had several mechanics diversifying gameplay - ice blocking ball control, fans pushing the ball in the direction of the wind, or erasers bouncing the ball."
+        },
+        "images": [
+          {
+            "original": "https://i.imgur.com/euh4Cbx.png",
+            "thumbnail": "https://i.imgur.com/euh4Cbx.png",
+            "description": {
+              "pl": "Menu Główne",
+              "en": "Main Menu"
+            }
+          },
+          {
+            "original": "https://i.imgur.com/N8icGnW.png",
+            "thumbnail": "https://i.imgur.com/N8icGnW.png",
+            "description": {
+              "pl": "Menu Opcji",
+              "en": "Options Menu"
+            }
+          },
+          {
+            "original": "https://i.imgur.com/DI6sOMP.png",
+            "thumbnail": "https://i.imgur.com/DI6sOMP.png",
+            "description": {
+              "pl": "Wybór Poziomu",
+              "en": "Level Selection"
+            }
+          },
+          {
+            "original": "https://i.imgur.com/DrQ73EH.png",
+            "thumbnail": "https://i.imgur.com/DrQ73EH.png",
+            "description": {
+              "pl": "Początek Poziomu",
+              "en": "Starting Level"
+            }
+          },
+          {
+            "original": "https://i.imgur.com/YW7mqtu.png",
+            "thumbnail": "https://i.imgur.com/YW7mqtu.png",
+            "description": {
+              "pl": "Mechanika Ślizgania",
+              "en": "Sliding Mechanics"
+            }
+          },
+          {
+            "original": "https://i.imgur.com/715gneP.png",
+            "thumbnail": "https://i.imgur.com/715gneP.png",
+            "description": {
+              "pl": "Ekran Ukończenia Poziomu",
+              "en": "Level Completed Screen"
+            }
+          },
+          {
+            "original": "https://i.imgur.com/lm8YBco.png",
+            "thumbnail": "https://i.imgur.com/lm8YBco.png",
+            "description": {
+              "pl": "Przykładowa łamigłówka (przewracanie notesu cięższą piłką)",
+              "en": "Example puzzle (knocking over notebook with heavy ball)"
+            }
+          },
+          {
+            "original": "https://i.imgur.com/HbhCF6i.png",
+            "thumbnail": "https://i.imgur.com/HbhCF6i.png",
+            "description": {
+              "pl": "Różne typy piłek",
+              "en": "Different ball types"
+            }
+          },
+          {
+            "original": "https://i.imgur.com/KJGae8b.png",
+            "thumbnail": "https://i.imgur.com/KJGae8b.png",
+            "description": {
+              "pl": "Ekran Pauzy",
+              "en": "Pause Screen"
+            }
+          },
+          {
+            "original": "https://i.imgur.com/cWqHN0T.png",
+            "thumbnail": "https://i.imgur.com/cWqHN0T.png",
+            "description": {
+              "pl": "Mechanika klimatyzatora (odpychanie piłki w kierunku wiatru)",
+              "en": "Air conditioner mechanics (pushing ball in the direction of the wind)"
+            }
+          }
+        ]
+      },
+      {
             "title": "BillGuide",
             "shortDesc": "Praca w firmie Billennium",
             "url": "",
-            "description" : "Projekt 'BillGuide' był projektem rozwijanym w firmie Billennium, mającym na celu wdrożenie grywalizacji oraz sprawdzeniu możliwości technologi AR. Na wstępie zaznacze, że projekt nie został ukończony, więc screenshoty pokazują jedynie koncept, oraz stan aplikacji w momencie mojej pracy nad nią. Składał się on z trzech aplikacji - jednej mobilnej na Androida/iOS oraz dwóch przeglądarkowych - jedna, bazująca na WebGL oraz druga, będąca endopointem. Aplikacja mobilna, po wcześniejszym zalogowaniu się do aplikacji, miała za zadanie wyświetlania dwóch widoków, w zależności od przeskanowanych danych JSON (umieszczonych w kodzie QR, kartkę z odpowiednim formatem dla danego użytkownika można było wygenerować na endpoint-cie). Jednym z widoków był panel informacji o danym użytkowniku (Ekran 'Workers Group info view') - pokazywał stanowisko w grupie, ludzi podporządkowanych pod daną osobę, z tym widokiem można było przeprowadzać interakcję za pomocą dotyku - sweep góra/dół pozwalał na scrollowanie viewboxa, za pomocą sygnatur pinchu oraz expandu można było powiększać bądź zmiejszać widok, sweep na lewo bądź prawo zmieniał widok informacji między widokiem grupy przynależności, a informacji szczegółowych o pracowniku (niestety nie posiadam screena z tego widoku). Drugim zastosowaniem aplikacji mobilnej było wyświetlanie awatara będącego elementem grywalizacji - poszczególne elementy ubioru/wyglądu można było edytować w aplikacji webowej (Ekran 'Avatar editor view (WebGL)'). Kolejne elementy wyglądu można było odblokować za pomocą wirtualnej waluty, docelowo zdobywanej poprzez zasługi w firmie. Dodatkowymi elemenetami awatara były animacje oraz efekty specjalne takie jak efekt fajerwerek (Ekran 'Old avatar + unlockable fireworks effect (inside editor)'). Aplikacja miała w planach integrację z systemem szkoleniowym pracowników - po każdym kursie użytkownik miał dostawać daną ilość wirtualnej waluty, a awatar, w zależności od rezultatu kursu, powinien odgrywać animację cieszynki bądź porażki. Moimi osobistymi pomysłami na rozbudowę aplikacji było dodanie dodatkowej logiki podczas skanowania kodu QR z innym use-caseam tj. integrację aplikacji mobilnej z systemem rezerwacji sal, dzięki czemu użytkownik mógł zeskanować kod na drzwiach, wyświetlić panel sterujący, po czym sprawidzić informację o rezerwacjach sali, bądź daną salę zarezerwować na spotkanie. Innym pomysłem było dodanie funkcji przewodnika - wybieramy punkt do którego chcemy się udać, a aplikacja pokazuje nam trasę do punktu docelowego w przestrzeni 3D nałożonego na widok z przedniej kamery telefonu.",
+            "description" : {
+              "pl": "Projekt 'BillGuide' był projektem rozwijanym w firmie Billennium, mającym na celu wdrożenie grywalizacji oraz sprawdzeniu możliwości technologi AR. Na wstępie zaznacze, że projekt nie został ukończony, więc screenshoty pokazują jedynie koncept, oraz stan aplikacji w momencie mojej pracy nad nią. Składał się on z trzech aplikacji - jednej mobilnej na Androida/iOS oraz dwóch przeglądarkowych - jedna, bazująca na WebGL oraz druga, będąca endopointem. Aplikacja mobilna, po wcześniejszym zalogowaniu się do aplikacji, miała za zadanie wyświetlania dwóch widoków, w zależności od przeskanowanych danych JSON (umieszczonych w kodzie QR, kartkę z odpowiednim formatem dla danego użytkownika można było wygenerować na endpoint-cie). Jednym z widoków był panel informacji o danym użytkowniku (Ekran 'Workers Group info view') - pokazywał stanowisko w grupie, ludzi podporządkowanych pod daną osobę, z tym widokiem można było przeprowadzać interakcję za pomocą dotyku - sweep góra/dół pozwalał na scrollowanie viewboxa, za pomocą sygnatur pinchu oraz expandu można było powiększać bądź zmiejszać widok, sweep na lewo bądź prawo zmieniał widok informacji między widokiem grupy przynależności, a informacji szczegółowych o pracowniku (niestety nie posiadam screena z tego widoku). Drugim zastosowaniem aplikacji mobilnej było wyświetlanie awatara będącego elementem grywalizacji - poszczególne elementy ubioru/wyglądu można było edytować w aplikacji webowej (Ekran 'Avatar editor view (WebGL)'). Kolejne elementy wyglądu można było odblokować za pomocą wirtualnej waluty, docelowo zdobywanej poprzez zasługi w firmie. Dodatkowymi elemenetami awatara były animacje oraz efekty specjalne takie jak efekt fajerwerek (Ekran 'Old avatar + unlockable fireworks effect (inside editor)'). Aplikacja miała w planach integrację z systemem szkoleniowym pracowników - po każdym kursie użytkownik miał dostawać daną ilość wirtualnej waluty, a awatar, w zależności od rezultatu kursu, powinien odgrywać animację cieszynki bądź porażki. Moimi osobistymi pomysłami na rozbudowę aplikacji było dodanie dodatkowej logiki podczas skanowania kodu QR z innym use-caseam tj. integrację aplikacji mobilnej z systemem rezerwacji sal, dzięki czemu użytkownik mógł zeskanować kod na drzwiach, wyświetlić panel sterujący, po czym sprawidzić informację o rezerwacjach sali, bądź daną salę zarezerwować na spotkanie. Innym pomysłem było dodanie funkcji przewodnika - wybieramy punkt do którego chcemy się udać, a aplikacja pokazuje nam trasę do punktu docelowego w przestrzeni 3D nałożonego na widok z przedniej kamery telefonu.",
+              "en": ""
+            },
             "images" : [ 
                 {
                     "original": "https://i.imgur.com/ioZoUq3.png",
@@ -257,18 +373,6 @@
                 }
               ]
             }
-    ]
-  },
-  "testimonials": {
-    "testimonials": [
-      {
-        "text": "Here you should write some nice things that someone has said about you. No lies though, employers can tell when you are lying.",
-        "user": "Kareem Abdul Jabbar"
-      },
-      {
-        "text": "That Tim Baker must be one of the most brilliant developers I've ever met! It is amazing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of University and have zero on the job experience but I am confident that he will be one of your best developers in no time!",
-        "user": "Steve Wozniak... impersonator"
-      }
     ]
   }
 }

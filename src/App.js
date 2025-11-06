@@ -54,37 +54,11 @@ class App extends Component {
     return (
       <Router>
           <div className="App">
-            {/* Language Toggle Button */}
-            <button 
-              onClick={this.toggleLanguage}
-              style={{
-                position: 'fixed',
-                top: '20px',
-                right: '20px',
-                zIndex: 1000,
-                padding: '10px 20px',
-                backgroundColor: '#11ABB0',
-                color: 'white',
-                border: 'none',
-                borderRadius: '5px',
-                cursor: 'pointer',
-                fontWeight: 'bold',
-                fontSize: '16px',
-                display: 'flex',
-                alignItems: 'center',
-                gap: '8px'
-              }}
-            >
-              {this.state.language === 'pl' ? (
-                <>
-                  <span style={{ fontSize: '20px' }}>🇬🇧</span> EN
-                </>
-              ) : (
-                <>
-                  <span style={{ fontSize: '20px' }}>🇵🇱</span> PL
-                </>
-              )}
-            </button>
+            {/* Language Switcher */}
+            <LanguageSwitcher 
+              language={this.state.language}
+              onToggle={this.toggleLanguage}
+            />
 
             <Routes>
               <Route path='/' element={
@@ -92,18 +66,22 @@ class App extends Component {
                   <Header 
                     data={this.state.resumeData.main} 
                     translations={this.state.translations}
+                    language={this.state.language}
                   />
                   <About 
                     data={this.state.resumeData.main} 
                     translations={this.state.translations}
+                    language={this.state.language}
                   />
                   <Resume 
                     data={this.state.resumeData.resume} 
                     translations={this.state.translations}
+                    language={this.state.language}
                   />
                   <Portfolio 
                     data={this.state.resumeData.portfolio} 
                     translations={this.state.translations}
+                    language={this.state.language}
                   />
                   <Footer data={this.state.resumeData.main} />
                 </>
