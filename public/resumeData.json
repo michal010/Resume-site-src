@@ -110,6 +110,27 @@
       }
     ],
     "skills": [
+{
+    "name": { "pl": "Programowanie", "en": "Programming" },
+    "icon": "fa fa-code",
+    "description": {"pl":"Języki i frameworki, którymi posługuje się codziennie.", "en":"Languages and frameworks I work with daily."},
+    "subSkills": [
+      { "name": "C#", "level": "85%" },
+      { "name": "Java", "level": "70%" },
+      { "name": "Python", "level": "65%" },
+      { "name": "C++", "level": "50%" },
+      { "name": "JavaScript/React", "level": "40%" }
+    ]
+  },
+  {
+    "name": { "pl": "Rozwój Gier", "en": "Game Development" },
+    "icon": "fa fa-gamepad",
+    "level": "85%",
+    "subSkills": [
+      { "name": { "pl": "Mechaniki 3D", "en": "3D Game Mechanics" }, "level": "85%" },
+      { "name": { "pl": "Optymalizacja mobilna", "en": "Mobile Optimization" }, "level": "80%" }
+    ]
+  },
       {
         "name": "Unity",
         "description": {

@@ -13,6 +13,8 @@
   "resume": {
     "education": "Education",
     "work": "Work",
-    "skills": "Skills"
+    "skills": "Skills",
+    "graduated": "Graduated",
+    "years": "Years"
   }
 }

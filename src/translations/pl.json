@@ -13,6 +13,8 @@
   "resume": {
     "education": "Edukacja",
     "work": "Praca",
-    "skills": "Umiejętności"
+    "skills": "Umiejętności",
+    "graduated": "Ukończono",
+    "years": "Lata"
   }
 }

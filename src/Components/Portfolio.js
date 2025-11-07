@@ -328,6 +328,64 @@ class Portfolio extends Component {
             font: 16px/26px 'opensans-regular', sans-serif;
             color: #6E7881;
             margin-bottom: 30px;
+            white-space: pre-wrap;
+          }
+
+          .modal-body .project-details {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 6px;
+            margin-bottom: 30px;
+          }
+
+          .modal-body .project-details h3 {
+            font: 18px/24px 'roboto-bold', 'opensans-bold', sans-serif;
+            color: #313131;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #11ABB0;
+            padding-bottom: 8px;
+          }
+
+          .modal-body .project-details p {
+            margin-bottom: 15px;
+            line-height: 1.8;
+          }
+
+          .modal-body .project-details ul {
+            list-style: none;
+            padding-left: 0;
+            margin-bottom: 15px;
+          }
+
+          .modal-body .project-details ul li {
+            padding-left: 25px;
+            position: relative;
+            margin-bottom: 8px;
+            line-height: 1.6;
+          }
+
+          .modal-body .project-details ul li:before {
+            content: '▸';
+            position: absolute;
+            left: 0;
+            color: #11ABB0;
+            font-weight: bold;
+          }
+
+          .modal-tech-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 20px;
+            padding-top: 20px;
+            border-top: 1px solid #e0e0e0;
+          }
+
+          .modal-tech-tags .tech-tag {
+            background: #11ABB0;
+            color: #fff;
+            padding: 6px 16px;
+            font-size: 13px;
           }
 
           .empty-state {
@@ -376,7 +434,7 @@ class Portfolio extends Component {
             <div className="twelve columns">
               <div className="portfolio-header">
                 <h1>
-                  {t.title || (lang === 'pl' ? 'Projekty, przy których pracowałem:' : 'Projects I worked on:')}
+                  {t.title || (lang === 'pl' ? 'Moje Projekty' : 'My Projects')}
                 </h1>
                 
                 <div className="section-switcher">
@@ -385,14 +443,14 @@ class Portfolio extends Component {
                     onClick={() => this.switchSection('professional')}
                   >
                     <i className="fa fa-briefcase"></i> {' '}
-                    {t.professional || (lang === 'pl' ? 'Projekty zawodowe' : 'Professional projects')}
+                    {t.professional || (lang === 'pl' ? 'Projekty Komercyjne' : 'Professional Projects')}
                   </button>
                   <button
                     className={`section-btn ${this.state.activeSection === 'hobby' ? 'active' : ''}`}
                     onClick={() => this.switchSection('hobby')}
                   >
                     <i className="fa fa-gamepad"></i> {' '}
-                    {t.hobby || (lang === 'pl' ? 'Projekty hobbystyczne' : 'Hobby projects')}
+                    {t.hobby || (lang === 'pl' ? 'Projekty Hobbystyczne' : 'Hobby Projects')}
                   </button>
                   <button
                     className={`section-btn ${this.state.activeSection === 'astrophotography' ? 'active' : ''}`}
