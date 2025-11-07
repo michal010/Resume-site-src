@@ -6,7 +6,7 @@ class Portfolio extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      activeSection: 'professional', // 'professional' or 'hobby'
+      activeSection: 'professional', // 'professional', 'hobby', or 'astrophotography'
       showModal: false,
       selectedProject: null,
       galleryImages: [],
@@ -54,10 +54,13 @@ class Portfolio extends Component {
     // Separate projects by category
     const professionalProjects = this.props.data?.projects?.filter(p => p.category === 'professional') || [];
     const hobbyProjects = this.props.data?.projects?.filter(p => p.category === 'hobby') || [];
+    const astrophotographyProjects = this.props.data?.projects?.filter(p => p.category === 'astrophotography') || [];
     
     const currentProjects = this.state.activeSection === 'professional' 
       ? professionalProjects 
-      : hobbyProjects;
+      : this.state.activeSection === 'hobby'
+      ? hobbyProjects
+      : astrophotographyProjects;
 
     const renderProjectCard = (project) => {
       const shortDesc = typeof project.shortDesc === 'object' 
@@ -120,6 +123,7 @@ class Portfolio extends Component {
             justify-content: center;
             gap: 20px;
             margin-top: 30px;
+            flex-wrap: wrap;
           }
 
           .section-btn {
@@ -372,7 +376,7 @@ class Portfolio extends Component {
             <div className="twelve columns">
               <div className="portfolio-header">
                 <h1>
-                  {t.title || (lang === 'pl' ? 'Moje Projekty' : 'My Projects')}
+                  {t.title || (lang === 'pl' ? 'Projekty, przy których pracowałem:' : 'Projects I worked on:')}
                 </h1>
                 
                 <div className="section-switcher">
@@ -381,14 +385,21 @@ class Portfolio extends Component {
                     onClick={() => this.switchSection('professional')}
                   >
                     <i className="fa fa-briefcase"></i> {' '}
-                    {t.professional || (lang === 'pl' ? 'Projekty Komercyjne' : 'Professional Projects')}
+                    {t.professional || (lang === 'pl' ? 'Projekty zawodowe' : 'Professional projects')}
                   </button>
                   <button
                     className={`section-btn ${this.state.activeSection === 'hobby' ? 'active' : ''}`}
                     onClick={() => this.switchSection('hobby')}
                   >
                     <i className="fa fa-gamepad"></i> {' '}
-                    {t.hobby || (lang === 'pl' ? 'Projekty Hobbystyczne' : 'Hobby Projects')}
+                    {t.hobby || (lang === 'pl' ? 'Projekty hobbystyczne' : 'Hobby projects')}
+                  </button>
+                  <button
+                    className={`section-btn ${this.state.activeSection === 'astrophotography' ? 'active' : ''}`}
+                    onClick={() => this.switchSection('astrophotography')}
+                  >
+                    <i className="fa fa-star"></i> {' '}
+                    {t.astrophotography || (lang === 'pl' ? 'Astrofotografia' : 'Astrophotography')}
                   </button>
                 </div>
               </div>
