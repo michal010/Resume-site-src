@@ -115,11 +115,14 @@
     "icon": "fa fa-code",
     "description": {"pl":"Języki i frameworki, którymi posługuje się codziennie.", "en":"Languages and frameworks I work with daily."},
     "subSkills": [
-      { "name": "C#", "level": "85%" },
-      { "name": "Java", "level": "70%" },
-      { "name": "Python", "level": "65%" },
-      { "name": "C++", "level": "50%" },
-      { "name": "JavaScript/React", "level": "40%" }
+      { "name": "C#", "level": "85%", "description": {
+        "pl": "Język ten jest moim pierwszym wyborem. Korzystam z niego od momentu, gdy zacząłem pracę z Unity, choć potrafię w nim tworzyć także inne rzeczy, takie jak odtwarzacze muzyki, wyszukiwarki przedmiotów do gier (np. Diablo 2) czy boty do Discorda. Znam zasady SOLID i nauczyłem się wzorców projektowych, takich jak Factory, Object Pooling, Command, State, Observer, Model-View-Controller oraz Model-View-Presenter. Staram się trzymać zasady KISS (Keep It Simple, Stupid) i ciągle poszerzam swoją wiedzę.",
+        "en": "This language is my top choice. I have been using it ever since I started working with Unity, but I also use it for other projects such as music players, item search tools for games like Diablo 2, and Discord bots. I am familiar with SOLID principles and have learned several design patterns, including Factory, Object Pooling, Command, State, Observer, Model-View-Controller, and Model-View-Presenter. I strive to follow the KISS (Keep It Simple, Stupid) principle and continuously work on improving my skills."
+      } },
+      { "name": "Java", "level": "70%", "description": { "pl": "Tworzyłem pluginy w Javie umożliwiające aplikacjom Unity dostęp do funkcji systemowych. Dzięki podobieństwu do C# dobrze posługuję się tym językiem i sprawnie przenoszę między nimi wiedzę.", "en": "I developed Java-based plugins that allowed Unity applications to access system-level functionality. Since Java is similar to C#, I understand it well and can easily transfer knowledge between both languages."} },
+      { "name": "Python", "level": "60%", "description": {"pl": "Python wykorzystuję głównie do szybkiego tworzenia narzędzi i automatyzacji. Pisałem m.in. skrypty do automatycznego tłumaczenia treści gry oraz do komunikacji między MML, ESP i Arduino.", "en": "I use Python mainly for rapid tool development and automation. I have written scripts for automatic in-game text translation and for communication between MML, ESP, and Arduino."} },
+      { "name": "C++", "level": "40%", "description": { "pl" : "Był to pierwszy język, którego nauczyłem się w liceum. Nie korzystam z niego na co dzień, ale znam jego podstawy.", "en": "It was the first language I learned back in high school. I don't use it on a daily basis, but I know the basics." } },
+      { "name": "JavaScript", "level": "40%", "description": { "pl": "Potrafię zrobić proste rzeczy w JavaScripcie, ale nie jest to język skryptowy, który dobrze znam.", "en": "I can do simple things in JavaScript, but it's not a scripting language I'm very familiar with."} }
     ]
   },
   {
@@ -131,25 +134,31 @@
       { "name": { "pl": "Optymalizacja mobilna", "en": "Mobile Optimization" }, "level": "80%" }
     ]
   },
+    {
+    "name": { "pl": "Unity", "en": "Unity" },
+    "icon": "unity-logo",
+    "level": "85%",
+    "subSkills": [
+      { "name": { "pl": "Mechaniki 3D", "en": "3D Game Mechanics" }, "level": "85%" },
+      { "name": { "pl": "Optymalizacja mobilna", "en": "Mobile Optimization" }, "level": "80%" }
+    ]
+  },
+    {
+    "name": { "pl": "Narzędzia i oprogramowanie", "en": "Tools & Software" },
+    "icon": "fas fa-toolbox",
+    "level": "85%",
+    "subSkills": [
+      { "name": { "pl": "Visual Studio", "en": "3D Game Mechanics" }, "description": {"pl": "asdasd", "en": "asdas"} },
+      { "name": { "pl": "Raider", "en": "Mobile Optimization" }, "level": "80%", "description": {"pl": "", "en": ""}  },
+      { "name": { "pl": "Raider", "en": "Mobile Optimization" }, "level": "80%", "description": {"pl": "", "en": ""}  },
+      { "name": { "pl": "Raider", "en": "Mobile Optimization" }, "level": "80%", "description": {"pl": "", "en": ""}  }
+    ]
+  },
       {
         "name": "Unity",
         "description": {
           "pl": "Pierwszy kontakt z Unity miałem w 2012 roku, jednakże tajniki silnika zacząłem zgłębiać dopiero w czasie studiów, w trakcie nauki języka C#. Pierwszą, ukończoną grą było Rule The Furniture - mobilna, trójwymiarowa gra zręcznościowo-logicza, będąca częścią pracy inżynierskiej. Ponadto z Unity korzystałem będąc na 24 godzinnym maratonie programowania - Gamelake Jam odbywającym się w 'Centrum Nauki Kopernik', gdzie, wraz z ekipą, stworzyliśmy prototyp gry nawiązującej do tematyki 'Grawitacja nie istnieje'. Obecnie tworzę projekt komercyjnej gry mobilnej Cirpong, oraz część praktyczną pracy magisterskiej. Oprócz projektów hobbistycznych posiadam ponad rok doświadczenia zawodowego. Podczas wieloletniego korzystania z Unity miałem styczność z Scriptable Objectami, Asset Bundle, zapytaniami HTTP, serializacją oraz deserializacją JSON, frameworkiem Vuforia, frameworkami do obsługi kodów QR oraz kodów kreskowych, Unity Event, Unity Action, URP, HDRP, LWRP, Coroutine, VFX Graph, Shader Graph, UI (w tym tworzenie modularnych okien), Animation State Machine, Collab, komunikacją między stroną a osadzoną na niej aplikacji WebGL, tworzeniem projektów na Androida, iOS'a, WebGL'a oraz Windows.",
           "en": "My first contact with Unity was in 2012, however I only started delving into the engine's secrets during my studies, while learning C#. My first completed game was Rule The Furniture - a mobile, three-dimensional arcade-logic game, which was part of my engineering thesis. I also used Unity during a 24-hour programming marathon - Gamelake Jam held at the 'Copernicus Science Centre', where, together with a team, we created a game prototype based on the theme 'Gravity doesn't exist'. Currently I'm creating a commercial mobile game project Cirpong, as well as the practical part of my master's thesis. Besides hobby projects, I have over a year of professional experience. During years of using Unity, I have worked with Scriptable Objects, Asset Bundles, HTTP requests, JSON serialization and deserialization, Vuforia framework, frameworks for handling QR codes and barcodes, Unity Event, Unity Action, URP, HDRP, LWRP, Coroutine, VFX Graph, Shader Graph, UI (including creating modular windows), Animation State Machine, Collab, communication between a website and a WebGL application embedded in it, creating projects for Android, iOS, WebGL and Windows."
-        }
-      },
-      {
-        "name": "C#",
-        "description": {
-          "pl": "Język ten znam na poziomie średnim/średnio-zaawansowanym. Potrafię korzystać z mocy obiektowości - polimorfizmu, interfejsów, struktur, delegatów, akcji, funkcji. W języku C# stworzyłem projekt odtwarzacza muzyki, automatycznego bota do discorda łączącego się z API w celu pomagania nowym graczom w grze MMO, program łączący się z API przetrzymującym dane kart do gry Hearthstone (nieukończony projekt) oraz program do czatu przez internet będącym dodatkowym projektem na studiach - korzystał z wielowątkowości oraz połączeń socketowych.",
-          "en": "I know this language at an intermediate/semi-advanced level. I can use the power of object-oriented programming - polymorphism, interfaces, structures, delegates, actions, functions. In C# I created a music player project, an automatic Discord bot connecting to an API to help new players in an MMO game, a program connecting to an API holding Hearthstone card game data (unfinished project), and an internet chat program which was an additional university project - it used multithreading and socket connections."
-        }
-      },
-      {
-        "name": "C++",
-        "description": {
-          "pl": "Z językiem C++ miałem styczność w liceum oraz na studiach, znam jego podstawy, umiem posługiwać się znacznikami, tworzyć klasy, stuktury oraz inne podstawowe elementy języka.",
-          "en": "I had contact with C++ in high school and during my studies, I know its basics, I can use pointers, create classes, structures and other basic language elements."
         }
       },
       {

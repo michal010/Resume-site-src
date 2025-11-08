@@ -1,6 +1,13 @@
 import React, { Component } from 'react';
 
 class Resume extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      expandedSkills: {} // Track which sub-skills are expanded
+    };
+  }
+
   // Get translation: t('resume', 'education') → "Edukacja" or "Education"
   t(section, key) {
     const lang = this.props.language || 'pl';
@@ -14,6 +21,16 @@ class Resume extends Component {
       return obj[lang] || obj['pl'] || Object.values(obj)[0] || '';
     }
     return obj || '';
+  }
+
+  toggleSubSkill = (skillName, subSkillName) => {
+    const key = `${skillName}-${subSkillName}`;
+    this.setState(prevState => ({
+      expandedSkills: {
+        ...prevState.expandedSkills,
+        [key]: !prevState.expandedSkills[key]
+      }
+    }));
   }
 
   render() {
@@ -45,54 +62,87 @@ class Resume extends Component {
       </div>
     )) || [];
 
-    const skills = this.props.data.skills?.map((skill) => {
-      const name = this.getText(skill.name);
-      const icon = skill.icon || 'fa fa-code';
-      const description = this.getText(skill.description);
-      const lines = description ? description.split('\n').filter(l => l.trim()) : [];
+const skills = this.props.data.skills?.map((skill) => {
+  const name = this.getText(skill.name);
+  const icon = skill.icon || 'fa fa-code';
+  const description = this.getText(skill.description);
+  const lines = description ? description.split('\n').filter(l => l.trim()) : [];
 
-      return (
-        <div key={name} className="skill-card">
-          <div className="skill-header">
-            <i className={icon}></i>
-            <h3>{name}</h3>
-          </div>
-
-          <div className="skill-content">
-            {lines.map((line, i) => (
-              line.trim().startsWith('-') || line.trim().startsWith('•')
-                ? <li key={i}>{line.replace(/^[-•]\s*/, '')}</li>
-                : <p key={i}>{line}</p>
-            ))}
-          </div>
-
-          {/* Main bar */}
-          {!skill.subSkills && skill.level && (
-            <div className="skill-level">
-              <div className="skill-level-bar" style={{ width: skill.level }}></div>
-            </div>
-          )}
-
-          {/* Sub-skills */}
-          {skill.subSkills && skill.subSkills.length > 0 && (
-            <div className="sub-skills">
-              {skill.subSkills.map((sub, i) => (
-                <div key={i} className="sub-skill">
-                  <span className="sub-skill-label">{this.getText(sub.name)}</span>
-                  <div className="sub-skill-level">
-                    <div
-                      className="sub-skill-level-bar"
-                      style={{ width: sub.level }}
-                    ></div>
-                  </div>
-                  <span className="sub-skill-percent">{sub.level}</span>
-                </div>
-              ))}
-            </div>
-          )}
+  return (
+    <div key={name} className="skill-card">
+      <div className="skill-header">
+        <i className={icon}></i>
+        <h3>{name}</h3>
+      </div>
+      <div className="skill-content">
+        {lines.map((line, i) => (
+          line.trim().startsWith('-') || line.trim().startsWith('•') ? 
+            <li key={i}>{line.replace(/^[-•]\s*/, '')}</li> : 
+            <p key={i}>{line}</p>
+        ))}
+      </div>
+      
+      {/* Main bar: Show only if no sub-skills AND level is defined */}
+      {!skill.subSkills && skill.level && skill.level.trim() !== '' && (
+        <div className="skill-level">
+          <div className="skill-level-bar" style={{ width: skill.level }}></div>
         </div>
-      );
-    }) || [];
+      )}
+      
+      {/* Optional: If you want main bar EVEN WITH sub-skills, use this instead */}
+      {/* {skill.level && skill.level.trim() !== '' && (
+        <div className="skill-level">
+          <div className="skill-level-bar" style={{ width: skill.level }}></div>
+        </div>
+      )} */}
+      
+      {/* Sub-skills: Hide level bar/percent if sub.level not defined */}
+      {skill.subSkills && skill.subSkills.length > 0 && (
+        <div className="sub-skills">
+          {skill.subSkills.map((sub, i) => {
+            const key = `${name}-${this.getText(sub.name)}`;
+            const isExpanded = this.state.expandedSkills[key];
+            const hasDescription = this.getText(sub.description);
+            
+            return (
+              <div key={i} className="sub-skill">
+                <div className="sub-skill-header">
+                  <span className="sub-skill-label">{this.getText(sub.name)}</span>
+                  
+                  {/* Conditional sub-level bar: Only if sub.level defined */}
+                  {sub.level && sub.level.trim() !== '' && (
+                    <>
+                      <div className="sub-skill-level">
+                        <div className="sub-skill-level-bar" style={{ width: sub.level }}></div>
+                      </div>
+                      <span className="sub-skill-percent">{sub.level}</span>
+                    </>
+                  )}
+                  
+                  {hasDescription && (
+                    <button 
+                      className={`sub-skill-toggle ${isExpanded ? 'expanded' : ''}`} 
+                      onClick={() => this.toggleSubSkill(name, this.getText(sub.name))} 
+                      aria-label="Toggle details"
+                    >
+                      <i className="fa fa-chevron-down"></i>
+                    </button>
+                  )}
+                </div>
+                
+                {hasDescription && isExpanded && (
+                  <div className="sub-skill-details">
+                    <p>{hasDescription}</p>
+                  </div>
+                )}
+              </div>
+            );
+          })}
+        </div>
+      )}
+    </div>
+  );
+}) || [];
 
     return (
       <>
@@ -170,6 +220,11 @@ class Resume extends Component {
           }
           .sub-skill {
             display: flex;
+            flex-direction: column;
+            gap: 8px;
+          }
+          .sub-skill-header {
+            display: flex;
             align-items: center;
             gap: 10px;
             font-size: 14px;
@@ -199,6 +254,66 @@ class Resume extends Component {
             font-weight: bold;
             color: #313131;
           }
+          .sub-skill-toggle {
+            flex: 0 0 30px;
+            height: 30px;
+            border: none;
+            background: transparent;
+            color: #11ABB0;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+            border-radius: 4px;
+          }
+          .sub-skill-toggle:hover {
+            background: rgba(17, 171, 176, 0.1);
+          }
+          .sub-skill-toggle i {
+            transition: transform 0.3s ease;
+            font-size: 14px;
+          }
+          .sub-skill-toggle.expanded i {
+            transform: rotate(180deg);
+          }
+          .sub-skill-details {
+            padding: 12px 15px;
+            background: #fff;
+            border-radius: 6px;
+            margin-left: 130px;
+            border-left: 3px solid #11ABB0;
+            animation: slideDown 0.3s ease;
+          }
+          .sub-skill-details p {
+            margin: 0;
+            font-size: 13px;
+            line-height: 1.6;
+            color: #6E7881;
+          }
+          .skill-header i.unity-logo {
+              background-image: url('https://www.citypng.com/public/uploads/preview/unity-game-engine-logo-icon-png-701751694709269rfgrsxrghr.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+            width: 35px;
+            height: 35px;
+            display: block;
+          }
+
+          .skill-header i.unity-logo::before {
+            content: none; /* Remove Font Awesome fallback */
+          }
+          @keyframes slideDown {
+            from {
+              opacity: 0;
+              transform: translateY(-10px);
+            }
+            to {
+              opacity: 1;
+              transform: translateY(0);
+            }
+          }
 
           @media (max-width: 768px) {
             .skill-card { padding: 20px; }
@@ -206,6 +321,8 @@ class Resume extends Component {
             .skill-header i { font-size: 24px; }
             .sub-skill-label { flex: 0 0 100px; font-size: 13px; }
             .sub-skill-percent { flex: 0 0 35px; font-size: 12px; }
+            .sub-skill-toggle { flex: 0 0 28px; height: 28px; }
+            .sub-skill-details { margin-left: 110px; }
           }
         `}</style>
 
