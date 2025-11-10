@@ -4,7 +4,8 @@ class Resume extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      expandedSkills: {} // Track which sub-skills are expanded
+      expandedSkills: {}, // Track which sub-skills are expanded
+      initializedExpanded: false // Track if we've initialized from props
     };
   }
 
@@ -21,6 +22,28 @@ class Resume extends Component {
       return obj[lang] || obj['pl'] || Object.values(obj)[0] || '';
     }
     return obj || '';
+  }
+
+  componentDidUpdate(prevProps) {
+    // Initialize expanded state from resumeData when data becomes available
+    if (!this.state.initializedExpanded && this.props.data?.skills) {
+      const initialExpanded = {};
+      this.props.data.skills.forEach(skill => {
+        const skillName = this.getText(skill.name);
+        if (skill.subSkills) {
+          skill.subSkills.forEach(sub => {
+            if (sub.expanded === true) {
+              const key = `${skillName}-${this.getText(sub.name)}`;
+              initialExpanded[key] = true;
+            }
+          });
+        }
+      });
+      this.setState({ 
+        expandedSkills: initialExpanded,
+        initializedExpanded: true 
+      });
+    }
   }
 
   toggleSubSkill = (skillName, subSkillName) => {
@@ -89,14 +112,7 @@ const skills = this.props.data.skills?.map((skill) => {
         </div>
       )}
       
-      {/* Optional: If you want main bar EVEN WITH sub-skills, use this instead */}
-      {/* {skill.level && skill.level.trim() !== '' && (
-        <div className="skill-level">
-          <div className="skill-level-bar" style={{ width: skill.level }}></div>
-        </div>
-      )} */}
-      
-      {/* Sub-skills: Hide level bar/percent if sub.level not defined */}
+      {/* Sub-skills: Always show toggle button */}
       {skill.subSkills && skill.subSkills.length > 0 && (
         <div className="sub-skills">
           {skill.subSkills.map((sub, i) => {
@@ -109,16 +125,23 @@ const skills = this.props.data.skills?.map((skill) => {
                 <div className="sub-skill-header">
                   <span className="sub-skill-label">{this.getText(sub.name)}</span>
                   
-                  {/* Conditional sub-level bar: Only if sub.level defined */}
-                  {sub.level && sub.level.trim() !== '' && (
-                    <>
-                      <div className="sub-skill-level">
-                        <div className="sub-skill-level-bar" style={{ width: sub.level }}></div>
-                      </div>
-                      <span className="sub-skill-percent">{sub.level}</span>
-                    </>
+                  {/* Skill level bar or empty space */}
+                  {sub.level && sub.level.trim() !== '' ? (
+                    <div className="sub-skill-level">
+                      <div className="sub-skill-level-bar" style={{ width: sub.level }}></div>
+                    </div>
+                  ) : (
+                    <div></div>
                   )}
                   
+                  {/* Percent display or empty space */}
+                  {sub.level && sub.level.trim() !== '' ? (
+                    <span className="sub-skill-percent">{sub.level}</span>
+                  ) : (
+                    <span></span>
+                  )}
+                  
+                  {/* Always show toggle button if description exists */}
                   {hasDescription && (
                     <button 
                       className={`sub-skill-toggle ${isExpanded ? 'expanded' : ''}`} 
@@ -130,6 +153,7 @@ const skills = this.props.data.skills?.map((skill) => {
                   )}
                 </div>
                 
+                {/* Show description when expanded */}
                 {hasDescription && isExpanded && (
                   <div className="sub-skill-details">
                     <p>{hasDescription}</p>
@@ -224,18 +248,17 @@ const skills = this.props.data.skills?.map((skill) => {
             gap: 8px;
           }
           .sub-skill-header {
-            display: flex;
-            align-items: center;
+            display: grid;
+            grid-template-columns: 120px 1fr 40px 30px;
             gap: 10px;
+            align-items: center;
             font-size: 14px;
             color: #313131;
           }
           .sub-skill-label {
-            flex: 0 0 120px;
             font-family: 'opensans-semibold', sans-serif;
           }
           .sub-skill-level {
-            flex: 1;
             height: 6px;
             background: #e0e0e0;
             border-radius: 3px;
@@ -248,14 +271,13 @@ const skills = this.props.data.skills?.map((skill) => {
             transition: width 0.5s ease;
           }
           .sub-skill-percent {
-            flex: 0 0 40px;
             text-align: right;
             font-size: 13px;
             font-weight: bold;
             color: #313131;
           }
           .sub-skill-toggle {
-            flex: 0 0 30px;
+            width: 30px;
             height: 30px;
             border: none;
             background: transparent;
@@ -302,7 +324,7 @@ const skills = this.props.data.skills?.map((skill) => {
           }
 
           .skill-header i.unity-logo::before {
-            content: none; /* Remove Font Awesome fallback */
+            content: none;
           }
           @keyframes slideDown {
             from {
@@ -319,9 +341,12 @@ const skills = this.props.data.skills?.map((skill) => {
             .skill-card { padding: 20px; }
             .skill-header h3 { font-size: 18px; }
             .skill-header i { font-size: 24px; }
-            .sub-skill-label { flex: 0 0 100px; font-size: 13px; }
-            .sub-skill-percent { flex: 0 0 35px; font-size: 12px; }
-            .sub-skill-toggle { flex: 0 0 28px; height: 28px; }
+            .sub-skill-header {
+              grid-template-columns: 100px 1fr 35px 28px;
+            }
+            .sub-skill-label { font-size: 13px; }
+            .sub-skill-percent { font-size: 12px; }
+            .sub-skill-toggle { width: 28px; height: 28px; }
             .sub-skill-details { margin-left: 110px; }
           }
         `}</style>
