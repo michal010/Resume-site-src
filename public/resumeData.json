@@ -149,7 +149,7 @@
       { "name": { "pl": "Sourcetree", "en": "Sourcetree" }, "description": {"pl": "Mój ulubiony git GUI, z którego korzystam najczęściej.", "en": "My favorite Git GUI, which I use the most."}, "expanded": true  },
       { "name": { "pl": "Blender", "en": "Blender" }, "description": {"pl": "Znam grafikę komputerową na tyle, że potrafię stworzyć prosty model 3D z teksturami oraz podstawowymi animacjami. Czasem tworzę w ten sposób proste elementy do gier lub elementy interfejsu.", "en": "I’m familiar with computer graphics to the extent that I can create simple 3D models with textures and basic animations. I sometimes use it to make simple game assets or UI elements."}, "expanded": true  },
       { "name": { "pl": "Inkscape", "en": "Inkscape" }, "description": {"pl": "Inkscape to darmowy program do grafiki wektorowej. Tworzę w nim proste elementy graficzne wykorzystywane głównie w interfejsach UI w Unity.", "en": "Inkscape is a free vector graphics tool. I create simple graphical elements primarily used in UI interfaces in Unity."}, "expanded": true  },
-      { "name": { "pl": "Materialize", "en": "Inkscape" }, "description": {"pl": "Jest to darmowy program do tworzenia Height, Normal, Metallic, Smoothness, Edge oraz AO map. Wykorzystuję go do projektów hobbistycznych, warto dodać, że twórcy Uncharted wykorzystywali go do tworzenia elementów otoczenia w 1 oraz 2 odsłonie gry tej serii.", "en": "This is a free program for creating Height, Normal, Metallic, Smoothness, Edge and AO maps. I use it for hobby projects, it's worth noting that the creators of Uncharted used it to create environmental elements in the 1st and 2nd installments of this game series."}, "expanded": true  }
+      { "name": { "pl": "Materialize", "en": "Materialize" }, "description": {"pl": "Jest to darmowy program do tworzenia Height, Normal, Metallic, Smoothness, Edge oraz AO map. Wykorzystuję go do projektów hobbistycznych, warto dodać, że twórcy Uncharted wykorzystywali go do tworzenia elementów otoczenia w 1 oraz 2 odsłonie gry tej serii.", "en": "This is a free program for creating Height, Normal, Metallic, Smoothness, Edge and AO maps. I use it for hobby projects, it's worth noting that the creators of Uncharted used it to create environmental elements in the 1st and 2nd installments of this game series."}, "expanded": true  }
     ]
   }
     ]
@@ -382,6 +382,14 @@
         ],
         "images": [
           {
+            "original": "images/portfolio/JelloJam/logo.png",
+            "thumbnail": "images/portfolio/JelloJam/logo.png",
+            "description": {
+              "pl": "Logo",
+              "en": "Logo"
+            }
+          },
+          {
             "original": "images/portfolio/JelloJam/JJ1.png",
             "thumbnail": "images/portfolio/JelloJam/JJ1.png",
             "description": {
@@ -461,7 +469,7 @@
               "en": "Gameplay"
             }
           },
-                    {
+          {
             "original": "images/portfolio/JelloJam/JJ11.png",
             "thumbnail": "images/portfolio/JelloJam/JJ11.png",
             "description": {
@@ -475,13 +483,13 @@
         "title": "Gambler's Dungeon",
         "category":"hobby",
         "shortDesc": {
-          "pl": "Pierwsza własna komercyjna gra na PC.",
-          "en": "First own commercial PC game."
+          "pl": "Moja pierwsza własna, komercyjna gra na PC. Jest to projekt, nad którym aktualnie pracuję — prace rozwijam od niedawna i gra znajduje się w fazie aktywnej produkcji.",
+          "en": "My first own commercial PC game. This is a project I am currently working on — development has started recently and the game is now in active production."
         },
         "url": "",
         "description": {
-          "pl": "Gra typu Merge stworzona na urządzenia z systemem Android przy użyciu silnika Unity. Zadaniem gracza jest łączenie owoców w coraz większe, zdobywając przy tym jak najwięcej punktów i pobijając własne rekordy. Rozgrywka polega na zrzucaniu owoców z górnej części ekranu, gdzie pod wpływem grawitacji spadają i łączą się parami, tworząc większe i bardziej wartościowe owoce.W grze istnieje system ulepszeń. Dostępnych jest 10 różnych bonusów, takich jak magnes, odkurzacz czy złote jabłko, z których każdy oferuje unikalną mechanikę wpływającą na przebieg gry. Ulepszenia pojawiają się losowo na jednym z owoców i pozostają aktywne przez określoną liczbę kolejnych zrzutów. Jeśli gracz połączy owoc z ulepszeniem, zdobywa je i trafia ono do ekwipunku.Każde ulepszenie można dodatkowo rozwijać, zwiększając szansę jego pojawienia się, rozszerzając zakres owoców, na których może wystąpić, lub podnosząc czas i skuteczność działania.Gracz może w dowolnym momencie aktywować posiadane ulepszenia z ekwipunku. Gra kończy się, gdy owoce przekroczą górną granicę pola gry i utrzymają się powyżej niej przez 5 sekund.",
-          "en": "A Merge-style game developed for Android using the Unity engine. The player's goal is to combine fruits into larger ones to earn as many points as possible and beat their own high scores. The gameplay revolves around dropping fruits from the top of the screen, where they fall due to gravity and merge in pairs to create bigger and more valuable fruits.The game features a system of 10 different power-ups, such as a magnet, vacuum, or golden apple, each offering unique gameplay effects. Power-ups appear randomly on one of the fruits and remain active for a set number of future fruit drops. If the player merges a fruit containing a power-up, they obtain it and it is added to their inventory.Each power-up can be further upgraded, increasing its chance to spawn, expanding the range of fruit tiers it can appear on, or improving its duration and effectiveness.Players can activate power-ups from their inventory at any moment. The game ends if the fruits stack above the upper boundary of the play area and remain there for 5 seconds."
+          "pl": "Moja pierwsza własna, komercyjna gra na PC — taktyczny roguelike z elementami RPG i systemem rekrutacji drużyny, inspirowany takimi tytułami jak For The King, Darkest Dungeon oraz Diablo. Gracz schodzi coraz głębiej do generowanych lochów, rekrutuje nowych bohaterów i podejmuje dynamiczne decyzje wpływające na przebieg całego runa. Rozgrywka łączy zarządzanie drużyną, eksplorację kolejnych pomieszczeń lochu oraz system walki oparty na statystykach i umiejętnościach.W grze znajduje się rozbudowany system ekwipunku inspirowany hack’n’slashami — z przedmiotami o losowych statystykach, unikatami oraz różnymi buildami postaci. Docelowo zawiera również meta-progresję w postaci rozwijanego miasteczka (jak w Darkest Dungeon), dającego trwałe ulepszenia między kolejnymi podejściami. Całość zaprojektowana jest jako gra, w której każdy run to inna historia, kształtowana przez decyzje gracza, dobór drużyny, zdobyte wyposażenie i ryzyko podejmowane podczas eksploracji lochu.",
+          "en": "My first own commercial PC title — a tactical roguelike RPG with party recruitment, inspired by For The King, Darkest Dungeon, and Diablo. The player descends deeper into procedurally generated dungeons, recruits new units, and makes dynamic decisions that shape the entire run. The gameplay combines party management, room-by-room dungeon exploration, and a combat system based on character stats and abilities.The game features a hack'n'slash-inspired itemization system with randomized gear, unique items, and diverse character build options. It also includes long-term meta progression through an upgradeable town hub (similar to Darkest Dungeon), which provides persistent improvements between runs. The goal is to create a game where each run tells a different story — shaped by the player's choices, team composition, acquired equipment, and the risks taken while diving deeper into the dungeon."
         },
         "technologies": [
           "Unity",
@@ -494,11 +502,19 @@
         ],
         "images": [
           {
-            "original": "images/portfolio/JelloJam/JJ1.png",
-            "thumbnail": "images/portfolio/JelloJam/JJ1.png",
+            "original": "images/portfolio/GD/GD.png",
+            "thumbnail": "images/portfolio/GD/GD.png",
             "description": {
               "pl": "Menu Główne",
               "en": "Main Menu"
+            }
+          },
+          {
+            "original": "images/portfolio/GD/gambler1.png",
+            "thumbnail": "images/portfolio/GD/gambler1.png",
+            "description": {
+              "pl": "Menu Główne (wczesny rozwój)",
+              "en": "Main Menu (early developement)"
             }
           }
         ]
@@ -637,8 +653,8 @@
             "shortDesc": "",
             "url": "https://play.google.com/store/apps/details?id=com.picadilla.beepbeepvroom&hl=pl",
             "description" : {
-              "pl": "Traffic Puzzle to dynamiczna gra mobilna typu match-3 z elementami zagadek logicznych i korków drogowych, stworzona w Unity przez Picadilla Games (później przejęta przez Huuuge Games), z ponad 10 milionami pobrań na Androidzie i iOS; pracując przy niej jako Unity Developer naprawiałem błędy w logice rozgrywki, interfejsie i integracjach z backendem (Cloud, IAP, analityka), usprawniałem testy automatyczne w Unity (Unity Test Framework + własne skrypty, integracja z CI/CD), projektowałem i wdrażałem nowe widoki dla eventów czasowych (np. Halloween, Christmas), dodawałem eventy do centralnego schematu zarządzania treścią  oraz wprowadzałem konfigurowalną zawartość (boostery, poziomy, nagrody) za pomocą edytowalnych danych w chmurze – co umożliwiało szybkie aktualizacje live-ops bez konieczności wydawania nowej wersji aplikacji.",
-              "en": "Traffic Puzzle is a fast-paced match-3 mobile game with logic-based traffic jam puzzles, built in Unity by Picadilla Games (later acquired by Huuuge Games), with over 10M downloads on Android and iOS; working as a Unity Developer I fixed bugs in gameplay logic, UI, and backend integrations (Cloud, IAP, analytics), improved automated testing in Unity (Unity Test Framework + custom scripts, CI/CD integration), designed and implemented new event UI views (e.g. Halloween, Christmas), added events to the central content schema, and introduced configurable content (boosters, levels, rewards) using cloud data systems – enabling rapid live-ops updates without requiring new app releases."
+              "pl": "Traffic Puzzle to dynamiczna gra mobilna typu match-3 z elementami zagadek logicznych i zarządzania ruchem miejskim, stworzona w Unity przez Picadilla Games (później przejęta przez Huuuge Games), z ponad 10 milionami pobrań na Androidzie i iOS. Pracując nad nią jako Unity Developer naprawiałem błędy w logice rozgrywki, interfejsie i integracjach z backendem (Cloud, IAP, analityka), usprawniałem i utrzymywałem testy automatyczne, projektowałem i wdrażałem nowe widoki UI wykorzystywane w eventach czasowych (np. Halloween, Christmas), dodawałem eventy do centralnego schematu logiki gry oraz rozszerzałem produkcję o nową konfigurowalną zawartość (boostery, nagrody, poziomy) zarządzaną z chmury, co umożliwiało szybkie aktualizacje live-ops bez potrzeby wydawania nowej wersji aplikacji.",
+              "en": "Traffic Puzzle is a dynamic mobile match-3 game with logic-based puzzle elements and city traffic management, developed in Unity by Picadilla Games (later acquired by Huuuge Games) and downloaded over 10 million times on Android and iOS. As a Unity Developer, I fixed gameplay logic, UI and backend integration issues (Cloud, IAP, analytics), improved and maintained automated tests, designed and implemented new UI views for time-limited in-game events (e.g., Halloween, Christmas), added events to the central game logic schema, and introduced new configurable content (boosters, rewards, levels) managed through cloud-based editable data, enabling fast live-ops updates without requiring new app releases."
             },
             "technologies": [
               "Unity",
@@ -683,8 +699,8 @@
             "shortDesc": "",
             "url": "https://store.steampowered.com/app/2324150/Neuroshima_Hex/",
             "description" : {
-              "pl": "",
-              "en": ""
+              "pl": "Neuroshima Hex to cyfrowa adaptacja popularnej na świecie gry planszowej o tej samej nazwie, dostępna m.in. na PC (Steam), w której gracze rywalizują frakcjami o unikalnych umiejętnościach, rozmieszczając żetony na planszy tak, aby przechytrzyć przeciwnika taktycznie i mechanicznie. Pracując jako Unity Developer przebudowałem cały system audio od zera (poprzedni był niefunkcjonalny), naprawiłem dużą liczbę błędów wpływających na rozgrywkę i stabilność, poprawiłem widoki oraz logikę mechanik jednostek i kart, naprawiłem problemy z integracją Firebase, znacząco przyczyniłem się do tłumaczenia gry na różne języki, tworząc dodatkowo skrypt w Pythonie do automatyzacji tłumaczeń, poprawiłem UI i jego skalowanie na różnych rozdzielczościach oraz przyczyniłem się do poprawy ocen użytkowników na Steamie, przechodząc od ocen negatywnych do pozytywnych.",
+              "en": "Neuroshima Hex is the digital adaptation of the globally popular board game of the same name, available on PC (Steam), where players command unique factions and tactically place tiles on the board to outmaneuver opponents. As a Unity Developer, I rebuilt the entire audio system from scratch (since the previous one was unusable), fixed a large number of gameplay and stability issues, improved UI views and card/unit mechanics, resolved Firebase-related bugs, contributed significantly to translating the game into multiple languages (including creating a Python script for translation automation), improved the UI and scaling across different resolutions, and helped raise the game's Steam rating from negative to positive."
             },
             "technologies": [
               "Unity",
@@ -708,8 +724,8 @@
             "shortDesc": "",
             "url": "https://store.steampowered.com/app/1674200/Alaska_Gold_Fever/",
             "description" : {
-              "pl": "",
-              "en": ""
+              "pl": "Alaska Gold Fever to survivalowo-ekonomiczna gra o poszukiwaniu złota na Alasce, łącząca eksplorację, zbieranie zasobów i rozwój infrastruktury wydobywczej; pracując jako Unity Developer zajmowałem się kontrolerem postaci, stworzyłem interaktywny wózek górniczy oraz system szyn do jego rozstawiania i transportu urobku, wprowadziłem poprawki w systemie lootu oraz usprawnienia w systemie hintmarków odpowiedzialnym za znaczniki na mapie i orientację w terenie.",
+              "en": "Alaska Gold Fever is a survival and resource-management game set during the Alaskan gold rush, where players explore, gather materials and build infrastructure to extract and transport ore; as a Unity Developer I worked on the character controller, created an interactive mining cart system with placeable tracks for transporting mined resources, improved the loot system and implemented changes to the hintmark/map marker system to enhance navigation and player experience."
             },
             "technologies": [
               "Unity",
@@ -719,12 +735,15 @@
               "UniTask",
               "FMOD"
             ],
-            "images" : [ 
-                {
-                    "original": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1674200/header.jpg?t=1753363943",
-                    "thumbnail": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1674200/header.jpg?t=1753363943",
-                    "description": "Smartphone app login screen"
+            "images": [
+              {
+                "original": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1674200/header.jpg?t=1753363943",
+                "thumbnail": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1674200/header.jpg?t=1753363943",
+                "description": {
+                  "pl": "Widok główny na steamie",
+                  "en": "Steam page screen"
                 }
+              }
               ]
             },
             {
@@ -733,8 +752,8 @@
             "shortDesc": "",
             "url": "https://store.steampowered.com/app/1983910/Prison_Survival_Architect_of_Crime_Simulator/",
             "description" : {
-              "pl": "",
-              "en": ""
+              "pl": "Prison Survival: Architect of Crime Simulator to trzecioosobowa gra akcji i skradanki, w której gracz musi przetrwać w niebezpiecznym środowisku więziennym, zdobywać zasoby, unikać wykrycia i stopniowo przygotowywać swoją ucieczkę. Gra łączy eksplorację, system parkouru, interakcję z otoczeniem oraz napięte sekwencje stealth, w których każdy ruch ma znaczenie.W projekcie odpowiadałem za większość kluczowych systemów rozgrywki i kontroli. Stworzyłem rozbudowany kontroler postaci oraz parkouru, obejmujący m.in. ślizganie, bieganie po ścianach, zjeżdżanie po linach, skakanie po rurach i szczeblach, poruszanie się po zwisających elementach (freehang), wspinaczkę po drabinach oraz przeskakiwanie po obiektach. Zaprojektowałem i wdrożyłem od podstaw konfigurowalny system interakcji, który można było definiować zarówno przyciskami, jak i akcjami oraz ich wymaganiami — wszystko edytowalne metodą drag-and-drop w Unity, bez potrzeby zmian w kodzie.Zaimplementowałem logikę skradania, ukrywania, wykrycia, staminy oraz checkpointów. Pracowałem nad optymalizacją widoczności i okluzji, obsługą przedmiotów, a także nad tłumaczeniem gry. Odpowiadałem również za konfigurację audio w FMOD oraz częściowo za kamerę i animacje. Dodatkowo stworzyłem system konfigurowalnych i kolejkowanych akcji, wykorzystywany do sterowania bardziej złożonymi zachowaniami gameplayowymi.Zdecydowana większość mechanik obecnych w grze — w tym liczne „mniejsze”, lecz istotne interakcje, takie jak otwieranie drzwi, obsługa kamer, przełączniki i interaktywne elementy środowiska — została stworzona przeze mnie.",
+              "en": "Prison Survival: Architect of Crime Simulator is a third-person action and stealth game in which the player must survive in a hostile prison environment, gather resources, avoid detection, and gradually plan their escape. The gameplay combines exploration, parkour movement, environmental interaction, and tense stealth scenarios where every decision matters.In the project, I was responsible for most of the core gameplay and control systems. I developed an advanced character and parkour controller that included sliding, wall-running, zipline traversal, jumping across pipes and ledges, free-hanging movement, climbing ladders, and object-to-object traversal. I also designed and implemented a fully configurable interaction system, where interactions could be defined via buttons, actions, and conditional requirements — all editable through drag-and-drop in the Unity Editor, without the need to modify code.I implemented the mechanics for stealth, hiding, detection, stamina, and checkpoints. I worked on visibility and occlusion optimization, item handling, and contributed to the localization of the game. I also handled FMOD audio setup and partially worked on the camera and animations. Additionally, I created a configurable and queue-based action system used to manage complex gameplay behavior.The majority of gameplay mechanics in the final game — including many smaller yet impactful environmental interactions such as door handling, camera system control, switches, and interactive world elements — were implemented by me."
             },
             "technologies": [
               "Unity",
@@ -760,8 +779,8 @@
                 "en": "Andromeda Galaxy"
               },
               "description": {
-                "pl": "Zdjęcie galaktyki Andromedy wykonane teleskopem...",
-                "en": "Image of Andromeda Galaxy taken with telescope..."
+                "pl": "Centrum Andromedy – najbliższej nam wielkiej galaktyki spiralnej, oddalonej o 2,5 miliona lat świetlnych. Na tym zdjęciu, widać jej majestatyczne ramiona spiralne, pyłowe pasma oraz towarzyszącej jej galaktyki satelitarnej - M32. To nie tylko najjaśniejszy obiekt głębokiego nieba widoczny gołym okiem z ciemnego nieba – to także najbliższy przystanek w naszej podróży poza Drogę Mleczną. Światło, które dociera do nas dziś, wyruszyło w drogę, gdy na Ziemi dopiero pojawiały się pierwsze hominidy. ",
+                "en": "The core of the Andromeda Galaxy – our closest major spiral neighbor, 2.5 million light-years away. This image captures its majestic spiral arms, dark dust lanes, and one of its satellite galaxies, M32. It is not only the brightest deep-sky object visible to the naked eye from a dark site – it is also the nearest stepping stone beyond the Milky Way. The light reaching us today began its journey when early hominids were just emerging on Earth."
               },
               "technologies": [
                 "Seestar S50",
@@ -784,12 +803,12 @@
               "title": "Beaver Supermoon",
               "category": "astrophotography",
               "shortDesc": {
-                "pl": "Superksiężyc bobra",
-                "en": "Beaver Supermoon"
+                "pl": "Superksiężyc Bobrowy z 5 listopada 2025",
+                "en": "Beaver Supermoon of November 5, 2025"
               },
               "description": {
-                "pl": "Zdjęcie galaktyki Andromedy wykonane teleskopem...",
-                "en": "Image of Andromeda Galaxy taken with telescope..."
+                "pl": "Superksiężyc Bobrowy, znany również jako pełnia listopadowa, osiągnął swój szczyt jasności 5 listopada 2025 roku o godzinie 4:19 czasu polskiego. To nie był zwykły pełny księżyc – to największy i najjaśniejszy supermoon roku, gdy Srebrny Glob znajdował się w perygeum (najbliższym punkcie orbity do Ziemi), zaledwie 356 980 km od naszej planety. W efekcie Księżyc wydawał się o około 7% większy i do 16% jaśniejszy niż typowa pełnia, rzucając delikatne cienie na ziemię i malując jesienny krajobraz w złotym blasku.Co to jest Superksiężyc Bobrowy? Nazwa Bobrowy (Beaver Moon) wywodzi się z tradycji rdzennych ludów Ameryki Północnej i europejskich osadników. Listopad to czas, gdy bobry kończą budować swoje żeremie i gromadzić zapasy na zimę, a w epoce handlu futrami był to szczyt sezonu pułapek na te zwierzęta. Inne nazwy listopadowej pełni to Mroźny Księżyc (Frost Moon) czy Księżyc Godzin Jeleni (Deer Rutting Moon), odzwierciedlające przygotowania natury do chłodów. Termin supermoon (ukuty w 1979 r.) opisuje zjawisko, gdy pełnia zbiega się z perygeum – orbitą Księżyca jest elipsa, więc raz jest bliżej (perygeum), raz dalej (apogeum). W 2025 roku to drugi z trzech supermoonów (po październikowym i przed grudniowym), ale zdecydowanie najbardziej spektakularny.",
+                "en": "The Beaver Supermoon, also known as the November full moon, reached its peak brightness on November 5, 2025, at 4:19 AM CET. This was no ordinary full moon — it was the largest and brightest supermoon of the year, with the Moon at perigee (its closest point to Earth), just 356,980 km from our planet. As a result, it appeared about 7% larger and up to 16% brighter than a typical full moon, casting soft shadows on the ground and painting the autumn landscape in golden light.What is the Beaver Supermoon?The name Beaver Moon comes from the traditions of Native North American peoples and early European settlers. November is the time when beavers finish building their lodges and stockpile food for winter — and, in the era of the fur trade, it was the peak season for trapping them. Other names for the November full moon include Frost Moon or Deer Rutting Moon, reflecting nature’s preparations for the cold. The term supermoon (coined in 1979) describes a full moon that coincides with perigee — the Moon’s orbit is elliptical, so it is sometimes closer (perigee) and sometimes farther (apogee). In 2025, this was the second of three supermoons (after October and before December), but by far the most spectacular."
               },
               "technologies": [
                 "Seestar S50"
@@ -799,8 +818,16 @@
                   "original": "images/portfolio/Astrophotography/Supermoon 5.11.25.jpg",
                   "thumbnail": "images/portfolio/Astrophotography/Supermoon 5.11.25.jpg",
                   "description": {
-                    "pl": "Galaktyka Andromedy M31",
-                    "en": "Andromeda Galaxy M31"
+                    "pl": "Supermoon 5.11.25",
+                    "en": "Supermoon 5.11.25"
+                  }
+                },
+                {
+                  "original": "images/portfolio/Astrophotography/sl.png",
+                  "thumbnail": "images/portfolio/Astrophotography/sl.png",
+                  "description": {
+                    "pl": "Satelita Starlink-35297 przelatujący na tle księżyca dzień wcześniej.",
+                    "en": "Starlink-35297 satellite passing in front of the Moon the day before."
                   }
                 }
               ]
