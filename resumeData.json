@@ -1,0 +1,837 @@
+{
+  "main": {
+    "name": "Michał Popielarz",
+    "occupation": {
+      "pl": "",
+      "en": ""
+    },
+    "description": {
+      "pl": "Odwieczny gracz, z pasją do tworzenia gier",
+      "en": "Eternal gamer, with a passion for creating games"
+    },
+    "image": "profilepic.jpg",
+    "fileCV": {
+      "pl": "CV3_Michał_Popielarz_eng.pdf",
+      "en": "CV3_Michał_Popielarz_eng.pdf"
+    },
+    "bio": {
+      "pl": "Jestem osobą kreatywną, szukającą rozwiązań, bądź alternatywnego podejścia dla danego problemu, lubiącą angażować się w rozwój projektu, poprzez dostarczanie nowych pomysłów. Przygodę z programowaniem rozpocząłem w liceum, zaczynając od C++, w czasie studiów poznałem język C#, w którym obecnie programuję. Potrafię szybko się uczyć, lubię podejmować nowe wyzwania, znam dobrze język angielski - nie mam problemu w komunikacji w tym języku, posiadam First Cambridge Certificate. Ukończyłem studia inżynierskie na kierunku Informatyka Ogólna, obecnie posiadam absolutorium studiów magisterskich na kierunku Projektowanie Systemów Informatycznych i Sieci Komputerowych. Od zawsze pasjonowałem się grami, a moim marzeniem jest pracować w branży gier. Przygodę z tworzeniem gier zacząłem mając około 14 lat. Zacząłem od edytora świata gry Warcraft 3, w którym skrypty tworzone są w języku LUA, bądź za pomocą wbudowanego edytora. Używałem również programów Game Maker oraz RPG Maker. Pierwszy kontakt z silnikiem Unity miałem w czasie liceum, lecz pierwsze hobbistyczne projekty stworzyłem dopiero po zapoznaniu się z językiem C# w czasie studiów.",
+      "en": "I am a creative person, looking for solutions or alternative approaches to problems, who likes to engage in project development by providing new ideas. I started my programming adventure in high school, beginning with C++, and during my studies I learned C#, which I currently program in. I can learn quickly, I like to take on new challenges, I know English well - I have no problem communicating in this language, I have the First Cambridge Certificate. I completed my engineering degree in General Computer Science, and I currently have completed coursework for my master's degree in IT Systems and Computer Networks Design. I have always been passionate about games, and my dream is to work in the gaming industry. I started creating games when I was about 14 years old. I started with the Warcraft 3 world editor, in which scripts are created in LUA language or using the built-in editor. I also used Game Maker and RPG Maker programs. I had my first contact with the Unity engine during high school, but I only created my first hobby projects after learning C# during my studies."
+    },
+    "email": "michael010pl@gmail.com",
+    "phone": "",
+    "address": {
+      "street": "",
+      "city": "",
+      "state": "",
+      "zip": ""
+    },
+    "social": [
+      {
+        "name": "facebook",
+        "url": "https://www.facebook.com/people/Micha%C5%82-Popielarz/100005186677038/",
+        "className": "fa fa-facebook"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/micha%C5%82-popielarz-95b373207/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/michal010",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "education": [
+      {
+        "school": "University of Warmia and Mazury in Olsztyn",
+        "degree": {
+          "pl": "Magister",
+          "en": "Master's Degree"
+        },
+        "graduated": "02.2018 - Present",
+        "description": {
+          "pl": "Posiadam absolutorium na kierunku Projektowanie Systemów Informatycznych i Sieci Komputerowych.",
+          "en": "I have completed coursework in IT Systems and Computer Networks Design."
+        }
+      },
+      {
+        "school": "University of Warmia and Mazury in Olsztyn",
+        "degree": {
+          "pl": "Inżynier",
+          "en": "Bachelor's Degree"
+        },
+        "graduated": "10.2014-02.2018",
+        "description": {
+          "pl": "Ukończone studia na kierunku Informatyka Ogólna",
+          "en": "Completed studies in General Computer Science"
+        }
+      }
+    ],
+    "work": [
+      {
+        "company": "Billennium",
+        "title": "Unity Developer",
+        "years": "12.2018 - 02.2020",
+        "description": {
+          "pl": "",
+          "en": ""
+        }
+      },
+      {
+        "company": "InPlanner",
+        "title": "Unity Developer",
+        "years": "10.2021 - 06.2022",
+        "description": {
+          "pl": "",
+          "en": ""
+        }
+      },
+      {
+        "company": "Huuuge Games",
+        "title": "Unity Developer",
+        "years": "06.2022 - 12.2022",
+        "description": {
+          "pl": "",
+          "en": ""
+        }
+      },
+      {
+        "company": "Baked Games",
+        "title": "Unity Developer",
+        "years": "10.2024 - 07.2025",
+        "description": {
+          "pl": "",
+          "en": ""
+        }
+      }
+    ],
+    "skills": [
+{
+    "name": { "pl": "Programowanie", "en": "Programming" },
+    "icon": "fa fa-code",
+    "description": {"pl":"Języki i frameworki, którymi posługuje się codziennie.", "en":"Languages and frameworks I work with daily."},
+    "subSkills": [
+      { "name": "C#", "level": "85%", "description": {
+        "pl": "Język ten jest moim pierwszym wyborem. Korzystam z niego od momentu, gdy zacząłem pracę z Unity, choć potrafię w nim tworzyć także inne rzeczy, takie jak odtwarzacze muzyki, wyszukiwarki przedmiotów do gier (np. Diablo 2) czy boty do Discorda. Znam zasady SOLID i nauczyłem się wzorców projektowych, takich jak Factory, Object Pooling, Command, State, Observer, Model-View-Controller oraz Model-View-Presenter. Staram się trzymać zasady KISS (Keep It Simple, Stupid) i ciągle poszerzam swoją wiedzę.",
+        "en": "This language is my top choice. I have been using it ever since I started working with Unity, but I also use it for other projects such as music players, item search tools for games like Diablo 2, and Discord bots. I am familiar with SOLID principles and have learned several design patterns, including Factory, Object Pooling, Command, State, Observer, Model-View-Controller, and Model-View-Presenter. I strive to follow the KISS (Keep It Simple, Stupid) principle and continuously work on improving my skills."
+      } },
+      { "name": "Java", "level": "65%", "description": { "pl": "Tworzyłem pluginy w Javie umożliwiające aplikacjom Unity dostęp do funkcji systemowych. Dzięki podobieństwu do C# dobrze posługuję się tym językiem i sprawnie przenoszę między nimi wiedzę.", "en": "I developed Java-based plugins that allowed Unity applications to access system-level functionality. Since Java is similar to C#, I understand it well and can easily transfer knowledge between both languages."} },
+      { "name": "Python", "level": "50%", "description": {"pl": "Python wykorzystuję głównie do szybkiego tworzenia narzędzi i automatyzacji. Pisałem m.in. skrypty do automatycznego tłumaczenia treści grsy oraz do komunikacji między MML, ESP i Arduino.", "en": "I use Python mainly for rapid tool development and automation. I have written scripts for automatic in-game text translation and for communication between MML, ESP, and Arduino."} },
+      { "name": "C++", "level": "40%", "description": { "pl" : "Był to pierwszy język, którego nauczyłem się w liceum. Nie korzystam z niego na co dzień, ale znam jego podstawy.", "en": "It was the first language I learned back in high school. I don't use it on a daily basis, but I know the basics." } },
+      { "name": "JavaScript", "level": "30%", "description": { "pl": "Potrafię zrobić proste rzeczy w JavaScripcie, ale nie jest to język skryptowy, który dobrze znam.", "en": "I can do simple things in JavaScript, but it's not a scripting language I'm very familiar with."} }
+    ]
+  },
+    {
+    "name": { "pl": "Unity", "en": "Unity" },
+    "icon": "unity-logo",
+    "level": "85%",
+    "subSkills": [
+      { "name": { "pl": "Mechaniki 2D/3D", "en": "2D/3D Game Mechanics" }, "level": "85%", "description": {"pl": "Praca z Rigidbody i Colliderami, wektorami ruchu, przyspieszeniami oraz rotacjami obiektów. Implementacja kinematyki ruchu, obsługa Raycastów, zarządzanie warstwami kolizji oraz precyzyjna kontrola transformacji i płynności ruchu.", "en": "Working with Rigidbody and Colliders, movement vectors, acceleration, and object rotations. Implementing motion kinematics, Raycast interaction, collision layer management, and precise control of transforms and smooth movement."} },
+      { "name": { "pl": "Animacje", "en": "Animations" }, "level": "65%", "description": {"pl": "Obsługa systemu Animator, tworzenie kontrolerów animacji z parametrami i przejściami między stanami. Podstawy blendowania animacji oraz synchronizacji animacji z logiką gry.", "en": "Proficient with the Animator system, creating animation controllers with parameters and state transitions. Basic animation blending and synchronizing animations with gameplay logic."} },
+      { "name": { "pl": "Rendering / Grafika", "en": "Render/Graphics" }, "level": "70%", "description": {"pl": "Praca z materiałami, oświetleniem, cieniami i rendererami obiektów (SpriteRenderer / MeshRenderer). Optymalny dobór ustawień wizualnych dla poprawy czytelności sceny.", "en": "Experience with materials, lighting, shadows, and object renderers (SpriteRenderer / MeshRenderer). Adjusting visual settings to improve scene readability and presentation."} },
+      { "name": { "pl": "Prefaby i Zarządzanie Assetami", "en": "Prefabs and asset management" }, "level": "75%", "description": {"pl": "Umiejętność tworzenia i organizowania prefabów, zmieniania ich w wielu scenach oraz utrzymania porządku w strukturze projektu. Efektywna organizacja zasobów i folderów.", "en": "Skilled in creating and managing prefabs, updating them across multiple scenes, and maintaining clean project structure. Efficient asset and folder organization."} },
+      { "name": { "pl": "Sceny i Level Design", "en": "Prefabs and asset management" }, "level": "60%", "description": {"pl": "Konfigurowanie scen, rozstawianie obiektów, praca z Tilemapami (w 2D) oraz podstawowe zasady kompozycji przestrzennej. Dbałość o ergonomię i czytelność poziomów.", "en": "Scene setup, object placement, working with Tilemaps (in 2D), and basic spatial composition principles. Focus on clear and readable level layout."} },
+      { "name": { "pl": "Input", "en": "Input" }, "level": "70%", "description": {"pl": "Obsługa systemów wejścia Unity (Input System oraz klasyczny Input). Implementacja sterowania klawiaturą, myszą i kontrolerami. Mapowanie akcji i płynne przekładanie wejścia na ruch.", "en": "Handling Unity Input System and legacy Input. Implementing controls for keyboard, mouse, and gamepads. Mapping player actions and translating input into smooth movement."} },
+      { "name": { "pl": "Optymalizacja", "en": "Optimization" }, "level": "85%", "description": {"pl": "Świadomość kosztów wydajności związanych z fizyką, animacją i update’ami. Umiejętność ograniczania zbędnych obliczeń i organizowania kodu pod kątem stabilności oraz płynności gry.", "en": "Awareness of performance costs related to physics, animation, and update cycles. Ability to reduce unnecessary computations and structure code for stable and smooth gameplay."} }
+    ]
+  },
+    {
+    "name": { "pl": "Narzędzia i oprogramowanie", "en": "Tools & Software" },
+    "icon": "fa fa-wrench",
+    "level": "85%",
+    "subSkills": [
+      { "name": { "pl": "Visual Studio", "en": "Visual Studio" }, "description": {"pl": "To jest moje podstawowe IDE, z którego korzystam najczęściej.", "en": "This is my go-to IDE that I use most often."}, "expanded": true },
+      { "name": { "pl": "Raider", "en": "Raider" }, "description": {"pl": "Bardzo dobre środowisko, przez niektórych uważane za lepsze niż Visual Studio.", "en": "A very good environment, arguably considered better than Visual Studio by some."}, "expanded": true  },
+      { "name": { "pl": "Sourcetree", "en": "Sourcetree" }, "description": {"pl": "Mój ulubiony git GUI, z którego korzystam najczęściej.", "en": "My favorite Git GUI, which I use the most."}, "expanded": true  },
+      { "name": { "pl": "Blender", "en": "Blender" }, "description": {"pl": "Znam grafikę komputerową na tyle, że potrafię stworzyć prosty model 3D z teksturami oraz podstawowymi animacjami. Czasem tworzę w ten sposób proste elementy do gier lub elementy interfejsu.", "en": "I’m familiar with computer graphics to the extent that I can create simple 3D models with textures and basic animations. I sometimes use it to make simple game assets or UI elements."}, "expanded": true  },
+      { "name": { "pl": "Inkscape", "en": "Inkscape" }, "description": {"pl": "Inkscape to darmowy program do grafiki wektorowej. Tworzę w nim proste elementy graficzne wykorzystywane głównie w interfejsach UI w Unity.", "en": "Inkscape is a free vector graphics tool. I create simple graphical elements primarily used in UI interfaces in Unity."}, "expanded": true  },
+      { "name": { "pl": "Materialize", "en": "Materialize" }, "description": {"pl": "Jest to darmowy program do tworzenia Height, Normal, Metallic, Smoothness, Edge oraz AO map. Wykorzystuję go do projektów hobbistycznych, warto dodać, że twórcy Uncharted wykorzystywali go do tworzenia elementów otoczenia w 1 oraz 2 odsłonie gry tej serii.", "en": "This is a free program for creating Height, Normal, Metallic, Smoothness, Edge and AO maps. I use it for hobby projects, it's worth noting that the creators of Uncharted used it to create environmental elements in the 1st and 2nd installments of this game series."}, "expanded": true  }
+    ]
+  }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Cirpong",
+        "category": "hobby",
+        "shortDesc": {
+          "pl": "Pierwsza, pełna gra stworzona całkowicie przeze mnie.",
+          "en": "First, completed game created just by my own."
+        },
+        "url": "",
+        "description": {
+          "pl": "Komercyjna, jednoosobowa, zręcznościowa gra mobilna (w produkcji) pisana na silniku Unity w języku C#. Jest to połączenie klasycznego pong-a z lekkim twistem - paletka porusza się po orbicie, a zamiast rywalizacji z innym graczem, gracz ma za zadanie zniszczyć wszystkie cegiełki widoczne na ekranie poprzez odbijanie od nich piłki. Styl graficzny gry, w dużej mierze opiera się na neonowym wyglądzie, uzyskanym za pomocą Post-Processingu. Wszystkie graficzne elemnty gry zostały wykonane za pomocą darmowego programu do grafiki wektorowej Inkscape. Gra posiada dwa tryby - Endless, w pełni działający, polegający na zdobyciu jak największej liczby punktów do momentu wypadnięcia piłki poza ekran (w przypadku zniszczenia wszystkich cegiełek zostaje wygenerowany nowy poziom), oraz Adventure pozwalający na przechodzenie poziomów progresywnie, z coraz to większym poziomem trudności, każde przejście poziomu jest oceniane systemem gwiazdek (od 0 do 3, wraz z połówkami), co widać na ekranie Level Selection, gwiazdki są przyznawane na podstawie zdobytych punktów na danym poziomie, a algorytm wyznacza ilość punktów potrzebnych na zdobycie połowy gwiazdki - dzięki czemu można zdeterminować wymaganą ilość punktów na uzyskanie maksymalnego wyniku. Tryb ten nie jest jeszcze w pełni sprawny, wymaga wprowadzenia paru poprawek. Dodatkowo gra została urozmaicona o możliwość odblokowania tzw. power-upów (ekran Upgrades Shop Menu), dzięki którym, podczas zbijania cegiełek jest szansa na pojawienie się ulepszenia (symbolizowane jasnoniebieską, transparetną sferą z ikoną w środku, odpowiadającą danemu power-upowi), które zostaje aktywowane w momencie przejścia piłki przez nie.",
+          "en": "A commercial, single-person, arcade mobile game (in production) written in Unity engine using C#. It's a combination of classic pong with a slight twist - the paddle moves around an orbit, and instead of competing with another player, the player's task is to destroy all the bricks visible on the screen by bouncing the ball off them. The game's graphic style is largely based on a neon look, achieved using Post-Processing. All graphic elements of the game were created using the free vector graphics program Inkscape. The game has two modes - Endless, fully functional, focused on achieving the highest score until the ball falls off the screen (if all bricks are destroyed, a new level is generated), and Adventure allowing progression through levels with increasing difficulty, each level completion is rated with a star system (from 0 to 3, including halves), as seen on the Level Selection screen, stars are awarded based on points scored on a given level, and the algorithm determines the number of points needed to earn half a star - allowing determination of the required points to achieve the maximum score. This mode is not yet fully functional and requires some fixes. Additionally, the game has been enriched with the ability to unlock power-ups (Upgrades Shop Menu screen), through which, while breaking bricks, there is a chance for an upgrade to appear (symbolized by a light blue, transparent sphere with an icon in the middle corresponding to the given power-up), which is activated when the ball passes through it."
+        },
+        "technologies":[
+          "Unity",
+          "C#",
+          "Android"
+        ],
+        "images": [
+          {
+            "original": "https://i.imgur.com/xSFfiED.png",
+            "thumbnail": "https://i.imgur.com/xSFfiED.png",
+            "description": {
+              "pl": "Menu Główne (WIP)",
+              "en": "Main Menu (WIP)"
+            }
+          },
+          {
+            "original": "https://i.imgur.com/CB6iYM2.png",
+            "thumbnail": "https://i.imgur.com/CB6iYM2.png",
+            "description": {
+              "pl": "Menu Opcji (WIP)",
+              "en": "Options Menu (WIP)"
+            }
+          },
+          {
+            "original": "https://i.imgur.com/l799YqW.png",
+            "thumbnail": "https://i.imgur.com/l799YqW.png",
+            "description": {
+              "pl": "Menu Sklepu z Ulepszeniami (WIP)",
+              "en": "Upgrades Shop Menu (WIP)"
+            }
+          },
+          {
+            "original": "https://i.imgur.com/nVdU699.png",
+            "thumbnail": "https://i.imgur.com/nVdU699.png",
+            "description": {
+              "pl": "Menu Sklepu z Ulepszeniami (WIP)",
+              "en": "Upgrades Shop Menu (WIP)"
+            }
+          },
+          {
+            "original": "https://i.imgur.com/GmXkUus.png",
+            "thumbnail": "https://i.imgur.com/GmXkUus.png",
+            "description": {
+              "pl": "Wybór Trybu Gry (WIP)",
+              "en": "Game Mode Selection (WIP)"
+            }
+          },
+          {
+            "original": "https://i.imgur.com/ejJKgac.png",
+            "thumbnail": "https://i.imgur.com/ejJKgac.png",
+            "description": {
+              "pl": "Wybór Poziomu (WIP)",
+              "en": "Level Selection (WIP)"
+            }
+          },
+          {
+            "original": "https://i.imgur.com/CTatdul.png",
+            "thumbnail": "https://i.imgur.com/CTatdul.png",
+            "description": {
+              "pl": "Rozgrywka (WIP)",
+              "en": "Gameplay (WIP)"
+            }
+          },
+          {
+            "original": "https://i.imgur.com/XWQgDtO.png",
+            "thumbnail": "https://i.imgur.com/XWQgDtO.png",
+            "description": {
+              "pl": "Rozgrywka (WIP)",
+              "en": "Gameplay (WIP)"
+            }
+          },
+          {
+            "original": "https://i.imgur.com/vjG1fse.png",
+            "thumbnail": "https://i.imgur.com/vjG1fse.png",
+            "description": {
+              "pl": "Rozgrywka (WIP)",
+              "en": "Gameplay (WIP)"
+            }
+          },
+          {
+            "original": "https://i.imgur.com/9gGombi.png",
+            "thumbnail": "https://i.imgur.com/9gGombi.png",
+            "description": {
+              "pl": "Ekran Końcowy (WIP)",
+              "en": "End Screen (WIP)"
+            }
+          }
+        ]
+      },
+      {
+        "title": "Rule the Furniture",
+        "category":"hobby",
+        "shortDesc": {
+          "pl": "Projekt pracy inżynierskiej",
+          "en": "Bachelor's thesis project"
+        },
+        "url": "",
+        "description": {
+          "pl": "Rule the furniture jest zręcznościową grą mobilną, napisaną na silniku Unity w języku C#. Jest to pierwszy, wykonany w całości projekt gry, będącej częścią praktyczną pracy inżynierskiej, większość assetów wykorzystanych w projekcie są assetami darmowymi, na licencji CC0, pozostałe zostały zrobione przeze mnie, głównie w darmowej aplikacji graifcznej Blender, muzyka w grze, efekty dźwiękowe oraz wszystkie skrypty zostały stworzone przeze mnie. Gra polega na doprowadzeniu piłki, sterowanej za pomocą joysticka, do kubka, będącego końcem poziomu. Otoczeniem gry, tak jak nazwa sugeruje, są meble oraz obiekty znajdujące się na nich. Oprócz joysticka, sterowanie odbywało się za pomocą przycisku funkcyjnego, który, w zależności od obecnego typu piłki, posiadał różne interackję - piłka tenisowa miała możliwość skoku, dzięki temu, że była lekka, skakała wyżej, lecz nie mogła przewracać niektórych obiektów, kula bilardowa natomiast, była cięższa, przez co skakała niżej, lecz można było przewracać obiekty takie jak notes - taka czynność była konieczna do rozwiązania niektórych poziomów (Ekran 'Example puzzle (knocking over notebook with heavy ball)'). Trzecim rodzajem piłki była piłka plażowa, która na przycisku funkcyjnym kurczyła bądź rozkurczała się, przez co mogła dostać się w miejsca niedostępne dla pozostałych dwóch typów piłek. Dodatkową cechą gry było zdobywanie porozrzucanych po danym poziomie gwiazdek (maks. 3), co wpływało na finalny wynik poziomu. Gra posiadała parę mechanik urozmaicających rozgrywkę - lód, blokujący sterowanie piłki, wentylatory odpychające piłkę w kierunku podmuchu wiatru, bądź gumki do ścierania odbijające piłkę.",
+          "en": "Rule the furniture is an arcade mobile game written in Unity engine using C#. This is the first, fully completed game project, which was the practical part of my engineering thesis, most of the assets used in the project are free assets under CC0 license, the rest were made by me, mainly in the free graphics application Blender, the music in the game, sound effects and all scripts were created by me. The game involves guiding a ball, controlled using a joystick, to a cup, which is the end of the level. The game environment, as the name suggests, consists of furniture and objects placed on them. Besides the joystick, control was done using a function button, which, depending on the current type of ball, had different interactions - the tennis ball could jump, and because it was light, it jumped higher, but couldn't knock over some objects, while the billiard ball was heavier, so it jumped lower, but could knock over objects like a notebook - this action was necessary to solve some levels (Screen 'Example puzzle (knocking over notebook with heavy ball)'). The third type of ball was a beach ball, which on the function button would shrink or expand, allowing it to access places inaccessible to the other two types of balls. An additional feature of the game was collecting stars scattered around a given level (max. 3), which affected the final level score. The game had several mechanics diversifying gameplay - ice blocking ball control, fans pushing the ball in the direction of the wind, or erasers bouncing the ball."
+        },
+        "technologies":[
+          "Unity",
+          "C#",
+          "Android",
+          "FL Studio",
+          "Blender"
+        ],
+        "images": [
+          {
+            "original": "https://i.imgur.com/euh4Cbx.png",
+            "thumbnail": "https://i.imgur.com/euh4Cbx.png",
+            "description": {
+              "pl": "Menu Główne",
+              "en": "Main Menu"
+            }
+          },
+          {
+            "original": "https://i.imgur.com/N8icGnW.png",
+            "thumbnail": "https://i.imgur.com/N8icGnW.png",
+            "description": {
+              "pl": "Menu Opcji",
+              "en": "Options Menu"
+            }
+          },
+          {
+            "original": "https://i.imgur.com/DI6sOMP.png",
+            "thumbnail": "https://i.imgur.com/DI6sOMP.png",
+            "description": {
+              "pl": "Wybór Poziomu",
+              "en": "Level Selection"
+            }
+          },
+          {
+            "original": "https://i.imgur.com/DrQ73EH.png",
+            "thumbnail": "https://i.imgur.com/DrQ73EH.png",
+            "description": {
+              "pl": "Początek Poziomu",
+              "en": "Starting Level"
+            }
+          },
+          {
+            "original": "https://i.imgur.com/YW7mqtu.png",
+            "thumbnail": "https://i.imgur.com/YW7mqtu.png",
+            "description": {
+              "pl": "Mechanika Ślizgania",
+              "en": "Sliding Mechanics"
+            }
+          },
+          {
+            "original": "https://i.imgur.com/715gneP.png",
+            "thumbnail": "https://i.imgur.com/715gneP.png",
+            "description": {
+              "pl": "Ekran Ukończenia Poziomu",
+              "en": "Level Completed Screen"
+            }
+          },
+          {
+            "original": "https://i.imgur.com/lm8YBco.png",
+            "thumbnail": "https://i.imgur.com/lm8YBco.png",
+            "description": {
+              "pl": "Przykładowa łamigłówka (przewracanie notesu cięższą piłką)",
+              "en": "Example puzzle (knocking over notebook with heavy ball)"
+            }
+          },
+          {
+            "original": "https://i.imgur.com/HbhCF6i.png",
+            "thumbnail": "https://i.imgur.com/HbhCF6i.png",
+            "description": {
+              "pl": "Różne typy piłek",
+              "en": "Different ball types"
+            }
+          },
+          {
+            "original": "https://i.imgur.com/KJGae8b.png",
+            "thumbnail": "https://i.imgur.com/KJGae8b.png",
+            "description": {
+              "pl": "Ekran Pauzy",
+              "en": "Pause Screen"
+            }
+          },
+          {
+            "original": "https://i.imgur.com/cWqHN0T.png",
+            "thumbnail": "https://i.imgur.com/cWqHN0T.png",
+            "description": {
+              "pl": "Mechanika klimatyzatora (odpychanie piłki w kierunku wiatru)",
+              "en": "Air conditioner mechanics (pushing ball in the direction of the wind)"
+            }
+          }
+        ]
+      },
+        {
+        "title": "Jello Jam",
+        "category":"hobby",
+        "shortDesc": {
+          "pl": "Pierwsza własna komercyjna gra na Android.",
+          "en": "First own commercial Android game "
+        },
+        "url": "",
+        "description": {
+          "pl": "Gra typu Merge stworzona na urządzenia z systemem Android przy użyciu silnika Unity. Zadaniem gracza jest łączenie owoców w coraz większe, zdobywając przy tym jak najwięcej punktów i pobijając własne rekordy. Rozgrywka polega na zrzucaniu owoców z górnej części ekranu, gdzie pod wpływem grawitacji spadają i łączą się parami, tworząc większe i bardziej wartościowe owoce.W grze istnieje system ulepszeń. Dostępnych jest 10 różnych bonusów, takich jak magnes, odkurzacz czy złote jabłko, z których każdy oferuje unikalną mechanikę wpływającą na przebieg gry. Ulepszenia pojawiają się losowo na jednym z owoców i pozostają aktywne przez określoną liczbę kolejnych zrzutów. Jeśli gracz połączy owoc z ulepszeniem, zdobywa je i trafia ono do ekwipunku.Każde ulepszenie można dodatkowo rozwijać, zwiększając szansę jego pojawienia się, rozszerzając zakres owoców, na których może wystąpić, lub podnosząc czas i skuteczność działania.Gracz może w dowolnym momencie aktywować posiadane ulepszenia z ekwipunku. Gra kończy się, gdy owoce przekroczą górną granicę pola gry i utrzymają się powyżej niej przez 5 sekund.",
+          "en": "A Merge-style game developed for Android using the Unity engine. The player's goal is to combine fruits into larger ones to earn as many points as possible and beat their own high scores. The gameplay revolves around dropping fruits from the top of the screen, where they fall due to gravity and merge in pairs to create bigger and more valuable fruits.The game features a system of 10 different power-ups, such as a magnet, vacuum, or golden apple, each offering unique gameplay effects. Power-ups appear randomly on one of the fruits and remain active for a set number of future fruit drops. If the player merges a fruit containing a power-up, they obtain it and it is added to their inventory.Each power-up can be further upgraded, increasing its chance to spawn, expanding the range of fruit tiers it can appear on, or improving its duration and effectiveness.Players can activate power-ups from their inventory at any moment. The game ends if the fruits stack above the upper boundary of the play area and remain there for 5 seconds."
+        },
+        "technologies": [
+          "Unity",
+          "C#",
+          "Android",
+          "Zenject",
+          "DoTween",
+          "Ironsource SDK",
+          "Odin",
+          "Netwonsoft"
+        ],
+        "images": [
+          {
+            "original": "images/portfolio/JelloJam/logo.png",
+            "thumbnail": "images/portfolio/JelloJam/logo.png",
+            "description": {
+              "pl": "Logo",
+              "en": "Logo"
+            }
+          },
+          {
+            "original": "images/portfolio/JelloJam/JJ1.png",
+            "thumbnail": "images/portfolio/JelloJam/JJ1.png",
+            "description": {
+              "pl": "Menu Główne",
+              "en": "Main Menu"
+            }
+          },
+          {
+            "original": "images/portfolio/JelloJam/JJ2.png",
+            "thumbnail": "images/portfolio/JelloJam/JJ2.png",
+            "description": {
+              "pl": "Menu Opcji",
+              "en": "Options Menu"
+            }
+          },
+          {
+            "original": "images/portfolio/JelloJam/JJ3.png",
+            "thumbnail": "images/portfolio/JelloJam/JJ3.png",
+            "description": {
+              "pl": "Rekordy, tryb normalny",
+              "en": "Highscores, normal mode"
+            }
+          },
+          {
+            "original": "images/portfolio/JelloJam/JJ4.png",
+            "thumbnail": "images/portfolio/JelloJam/JJ4.png",
+            "description": {
+              "pl": "Rekordy, tryb dziki",
+              "en": "Highscores, wild mode"
+            }
+          },
+          {
+            "original": "images/portfolio/JelloJam/JJ5.png",
+            "thumbnail": "images/portfolio/JelloJam/JJ5.png",
+            "description": {
+              "pl": "Sklep",
+              "en": "Shop"
+            }
+          },
+          {
+            "original": "images/portfolio/JelloJam/JJ6.png",
+            "thumbnail": "images/portfolio/JelloJam/JJ6.png",
+            "description": {
+              "pl": "Sklep",
+              "en": "Shop"
+            }
+          },
+          {
+            "original": "images/portfolio/JelloJam/JJ7.png",
+            "thumbnail": "images/portfolio/JelloJam/JJ7.png",
+            "description": {
+              "pl": "Sklep",
+              "en": "Shop"
+            }
+          },
+          {
+            "original": "images/portfolio/JelloJam/JJ8.png",
+            "thumbnail": "images/portfolio/JelloJam/JJ8.png",
+            "description": {
+              "pl": "Sklep",
+              "en": "Shop"
+            }
+          },
+          {
+            "original": "images/portfolio/JelloJam/JJ9.png",
+            "thumbnail": "images/portfolio/JelloJam/JJ9.png",
+            "description": {
+              "pl": "Ekran wyboru trybu gry",
+              "en": "Mode selection window"
+            }
+          },
+          {
+            "original": "images/portfolio/JelloJam/JJ10.png",
+            "thumbnail": "images/portfolio/JelloJam/JJ10.png",
+            "description": {
+              "pl": "Gra",
+              "en": "Gameplay"
+            }
+          },
+          {
+            "original": "images/portfolio/JelloJam/JJ11.png",
+            "thumbnail": "images/portfolio/JelloJam/JJ11.png",
+            "description": {
+              "pl": "Gra",
+              "en": "Gameplay"
+            }
+          }
+        ]
+      },
+      {
+        "title": "Gambler's Dungeon",
+        "category":"hobby",
+        "shortDesc": {
+          "pl": "Moja pierwsza własna, komercyjna gra na PC. Jest to projekt, nad którym aktualnie pracuję — prace rozwijam od niedawna i gra znajduje się w fazie aktywnej produkcji.",
+          "en": "My first own commercial PC game. This is a project I am currently working on — development has started recently and the game is now in active production."
+        },
+        "url": "",
+        "description": {
+          "pl": "Moja pierwsza własna, komercyjna gra na PC — taktyczny roguelike z elementami RPG i systemem rekrutacji drużyny, inspirowany takimi tytułami jak For The King, Darkest Dungeon oraz Diablo. Gracz schodzi coraz głębiej do generowanych lochów, rekrutuje nowych bohaterów i podejmuje dynamiczne decyzje wpływające na przebieg całego runa. Rozgrywka łączy zarządzanie drużyną, eksplorację kolejnych pomieszczeń lochu oraz system walki oparty na statystykach i umiejętnościach.W grze znajduje się rozbudowany system ekwipunku inspirowany hack’n’slashami — z przedmiotami o losowych statystykach, unikatami oraz różnymi buildami postaci. Docelowo zawiera również meta-progresję w postaci rozwijanego miasteczka (jak w Darkest Dungeon), dającego trwałe ulepszenia między kolejnymi podejściami. Całość zaprojektowana jest jako gra, w której każdy run to inna historia, kształtowana przez decyzje gracza, dobór drużyny, zdobyte wyposażenie i ryzyko podejmowane podczas eksploracji lochu.",
+          "en": "My first own commercial PC title — a tactical roguelike RPG with party recruitment, inspired by For The King, Darkest Dungeon, and Diablo. The player descends deeper into procedurally generated dungeons, recruits new units, and makes dynamic decisions that shape the entire run. The gameplay combines party management, room-by-room dungeon exploration, and a combat system based on character stats and abilities.The game features a hack'n'slash-inspired itemization system with randomized gear, unique items, and diverse character build options. It also includes long-term meta progression through an upgradeable town hub (similar to Darkest Dungeon), which provides persistent improvements between runs. The goal is to create a game where each run tells a different story — shaped by the player's choices, team composition, acquired equipment, and the risks taken while diving deeper into the dungeon."
+        },
+        "technologies": [
+          "Unity",
+          "C#",
+          "Android",
+          "UniTask",
+          "DoTween",
+          "Odin",
+          "Netwonsoft"
+        ],
+        "images": [
+          {
+            "original": "images/portfolio/GD/GD.png",
+            "thumbnail": "images/portfolio/GD/GD.png",
+            "description": {
+              "pl": "Menu Główne",
+              "en": "Main Menu"
+            }
+          },
+          {
+            "original": "images/portfolio/GD/gambler1.png",
+            "thumbnail": "images/portfolio/GD/gambler1.png",
+            "description": {
+              "pl": "Menu Główne (wczesny rozwój)",
+              "en": "Main Menu (early developement)"
+            }
+          }
+        ]
+      },
+      {
+            "title": "BillGuide",
+            "category":"professional",
+            "shortDesc": "",
+            "url": "",
+            "description" : {
+              "pl": "BillGuide to projekt rozwijany w firmie Billennium, będący moim pierwszym komercyjnym doświadczeniem. Celem było wdrożenie grywalizacji w środowisku firmowym oraz sprawdzenie możliwości technologii AR. Projekt składał się z aplikacji mobilnej (Android/iOS) oraz dwóch aplikacji webowych (WebGL oraz panel administratora). Użytkownik logował się w aplikacji mobilnej i skanował kod QR zawierający dane JSON generowane w panelu. W zależności od danych wyświetlany był widok informacji o pracowniku z możliwością interakcji dotykowej (scroll, pinch-to-zoom, swipe) lub widok awatara 3D jako element grywalizacji. Wygląd awatara można było edytować w aplikacji WebGL, a nowe elementy odblokowywać za pomocą wirtualnej waluty zdobywanej za aktywność firmową. Dodane były także animacje i efekty specjalne, np. fajerwerki oraz animacje reakcji po ukończonych szkoleniach. Projekt miał docelowo integrować się z systemem szkoleniowym firmy. Zaproponowałem również rozszerzenia funkcjonalne, takie jak integracja z systemem rezerwacji sal poprzez skanowanie kodów na drzwiach oraz funkcję przewodnika AR prowadzącego użytkownika po biurze w oparciu o ścieżkę 3D wyświetlaną na widoku kamery.",
+              "en": "BillGuide was a project developed at Billennium and my first commercial experience. The goal was to introduce gamification into the corporate environment and explore the possibilities of AR technology. The project consisted of a mobile application (Android/iOS) and two web applications (a WebGL avatar editor and an admin panel). The mobile app allowed the user to log in and scan a QR code containing JSON data generated in the admin panel. Depending on the scanned data, the app displayed either an employee organizational information view with touch interactions (scrolling, pinch-to-zoom, swipe) or a 3D avatar view as the core gamification feature. The avatar’s appearance could be customized in the WebGL editor, and new items could be unlocked with virtual currency earned through employee achievements. Additional visual and animation effects were included, such as fireworks and celebration or failure animations after completing training. The project was intended to integrate with the employee training system. I also proposed functional extensions such as meeting room booking through scanning QR codes on doors and an AR navigation system guiding employees around the office using a 3D path overlay on the camera view."
+            },
+            "technologies": [
+              "Unity",
+              "C#",
+              "Android",
+              "iOS",
+              "WebRequest",
+              "Vuforia",
+              "Netwonsoft",
+              "WebGL"
+            ],
+            "images": [
+              {
+                "original": "https://i.imgur.com/ioZoUq3.png",
+                    "thumbnail": "https://i.imgur.com/ioZoUq3.png",
+                    "description": "Smartphone app login screen"
+                },
+                {
+                    "original" : "https://i.imgur.com/Q8znKXP.jpg",
+                    "thumbnail" : "https://i.imgur.com/Q8znKXP.jpg",
+                    "description": "Image Target + QR Code Card"
+                },
+                {
+                    "original": "https://i.imgur.com/OSI45MI.jpg",
+                    "thumbnail": "https://i.imgur.com/OSI45MI.jpg",
+                    "description": "Workers Group info view"
+                },
+                {
+                    "original": "https://i.imgur.com/jZJNgEG.jpg",
+                    "thumbnail": "https://i.imgur.com/jZJNgEG.jpg",
+                    "description": "Workers Group info view"
+                },
+                {
+                    "original": "https://i.imgur.com/5uTXapi.jpg",
+                    "thumbnail": "https://i.imgur.com/5uTXapi.jpg",
+                    "description": "Old avatar + unlockable fireworks effect (inside editor)"
+                },
+                {
+                    "original": "https://i.imgur.com/qlsxBIY.jpg",
+                    "thumbnail": "https://i.imgur.com/qlsxBIY.jpg",
+                    "description": "Avatar editor view (WebGL)"
+                },
+                {
+                    "original": "https://i.imgur.com/KZoDXiV.jpg",
+                    "thumbnail": "https://i.imgur.com/KZoDXiV.jpg",
+                    "description": "Avatar editor view - unlocking new clothing (WebGL)"
+                },
+                {
+                    "original": "https://i.imgur.com/yjMbQly.jpg",
+                    "thumbnail": "https://i.imgur.com/yjMbQly.jpg",
+                    "description": "Avatar editor view (WebGL)"
+                },
+                {
+                    "original": "https://i.imgur.com/IwrAcDj.jpg",
+                    "thumbnail": "https://i.imgur.com/IwrAcDj.jpg",
+                    "description": "Avatar editor view (WebGL)"
+                }
+              ]
+            },
+            {
+            "title": "HomeAR",
+            "category":"professional",
+            "shortDesc": "",
+            "url": "",
+            "description" : {
+              "pl": "HomeAR to aplikacja do projektowania wnętrz stworzona w Unity, umożliwiająca wczytywanie modeli 3D z pamięci urządzenia lub z internetu. Obiekty można było umieszczać w zwykłej scenie 3D lub w przestrzeni AR, a także zapisywać projekty, zmieniać wygląd modeli, przesuwać je, obracać i skalować. Aplikacja obsługiwała również wielojęzyczność.",
+              "en": "HomeAR is an interior design application built in Unity, allowing users to import 3D models from the device or online sources. Objects could be placed either in a standard 3D scene or in AR space, with options to save projects, change model appearance, move, rotate, and scale items. The application also included multi-language support."
+            },
+            "technologies": [
+              "Unity",
+              "C#",
+              "Android",
+              "AR Foundation"
+            ],
+            "images" : [ 
+                {
+                    "original": "images/portfolio/HomeAR/ar1.png",
+                    "thumbnail": "images/portfolio/HomeAR/ar1.png",
+                    "description": "Smartphone app login screen"
+                }
+              ]
+            },
+            {
+            "title": "KIOSK Application",
+            "category":"professional",
+            "shortDesc": "",
+            "url": "",
+            "description" : {
+              "pl": "Aplikacja typu kiosk stworzona w Unity, zaprojektowana do blokowania urządzenia na określonej stronie internetowej (np. system rezerwacji sal dla firm bez biura). Oprócz części stworzonej w Unity, w której to integrowałem przeglądarkę do silnika, przygotowałem również własny plugin napisany w Javie, który aktywuje tryb kiosku, wyłącza wybrane funkcje systemu Android, automatycznie uruchamia aplikację przy starcie oraz obsługuje dodatkowe zdarzenia systemowe. Rozwiązanie jest elastyczne i może być łatwo dostosowane do innych witryn i zastosowań.",
+              "en": "Kiosk-mode application built in Unity, designed to lock the device to a specific website (for example, a meeting room reservation system for companies without office space). In addition to the Unity application, in which I integrated the web browser to the game engine, I also developed a custom Java plugin that enables kiosk mode, disables selected Android system features, automatically launches the app on startup, and handles system-level events. The solution is flexible and can be easily adapted to other websites and use cases."
+            },
+            "technologies": [
+              "Unity",
+              "C#",
+              "Android",
+              "Java"
+            ],
+            "images" : [ 
+                {
+                    "original": "images/portfolio/Kiosk/kiosk.jpeg",
+                    "thumbnail": "images/portfolio/Kiosk/kiosk.jpeg",
+                    "description": ""
+                },
+                {
+                    "original": "images/portfolio/Kiosk/kiosk1.jpg",
+                    "thumbnail": "images/portfolio/Kiosk/kiosk1.jpg",
+                    "description": {"pl": "Aplikacja w pracy", "en": "Application at work"}
+                },
+                {
+                    "original": "images/portfolio/Kiosk/kiosk2.jpg",
+                    "thumbnail": "images/portfolio/Kiosk/kiosk2.jpg",
+                    "description": {"pl": "Aplikacja w pracy", "en": "Application at work"}
+                },
+                {
+                    "original": "images/portfolio/Kiosk/kiosk3.png",
+                    "thumbnail": "images/portfolio/Kiosk/kiosk3.png",
+                    "description": {"pl": "Widok ustawień", "en": "Settings screen"}
+                }
+              ]
+            },
+            {
+            "title": "Traffic Puzzle",
+            "category":"professional",
+            "shortDesc": "",
+            "url": "https://play.google.com/store/apps/details?id=com.picadilla.beepbeepvroom&hl=pl",
+            "description" : {
+              "pl": "Traffic Puzzle to dynamiczna gra mobilna typu match-3 z elementami zagadek logicznych i zarządzania ruchem miejskim, stworzona w Unity przez Picadilla Games (później przejęta przez Huuuge Games), z ponad 10 milionami pobrań na Androidzie i iOS. Pracując nad nią jako Unity Developer naprawiałem błędy w logice rozgrywki, interfejsie i integracjach z backendem (Cloud, IAP, analityka), usprawniałem i utrzymywałem testy automatyczne, projektowałem i wdrażałem nowe widoki UI wykorzystywane w eventach czasowych (np. Halloween, Christmas), dodawałem eventy do centralnego schematu logiki gry oraz rozszerzałem produkcję o nową konfigurowalną zawartość (boostery, nagrody, poziomy) zarządzaną z chmury, co umożliwiało szybkie aktualizacje live-ops bez potrzeby wydawania nowej wersji aplikacji.",
+              "en": "Traffic Puzzle is a dynamic mobile match-3 game with logic-based puzzle elements and city traffic management, developed in Unity by Picadilla Games (later acquired by Huuuge Games) and downloaded over 10 million times on Android and iOS. As a Unity Developer, I fixed gameplay logic, UI and backend integration issues (Cloud, IAP, analytics), improved and maintained automated tests, designed and implemented new UI views for time-limited in-game events (e.g., Halloween, Christmas), added events to the central game logic schema, and introduced new configurable content (boosters, rewards, levels) managed through cloud-based editable data, enabling fast live-ops updates without requiring new app releases."
+            },
+            "technologies": [
+              "Unity",
+              "C#",
+              "Android",
+              "iOS",
+              "Ironsource SDK",
+              "Azure",
+              "MVC"
+            ],
+            "images" : [ 
+                {
+                    "original": "https://i.ytimg.com/vi/c7JnRSW9_h4/maxresdefault.jpg",
+                    "thumbnail": "https://i.ytimg.com/vi/c7JnRSW9_h4/maxresdefault.jpg",
+                    "description": ""
+                },
+                {
+                    "original": "https://play-lh.googleusercontent.com/WGkcCF8cHKAsSQB5wBlmhFkWTYfQNc3dIykiRpI8bA2kpznsbQXi9Oo7LMGF8MnlPXw=w2560-h1440",
+                    "thumbnail": "https://play-lh.googleusercontent.com/WGkcCF8cHKAsSQB5wBlmhFkWTYfQNc3dIykiRpI8bA2kpznsbQXi9Oo7LMGF8MnlPXw=w2560-h1440",
+                    "description": ""
+                },
+                {
+                    "original": "https://play-lh.googleusercontent.com/hYnnnWXREKhTY4pBa_WgPcA7Wny5QvtHgQsIdM5kHD5z2kFZk3pNobzJo06KuwL0DR0E=w2560-h1440",
+                    "thumbnail": "https://play-lh.googleusercontent.com/hYnnnWXREKhTY4pBa_WgPcA7Wny5QvtHgQsIdM5kHD5z2kFZk3pNobzJo06KuwL0DR0E=w2560-h1440",
+                    "description": ""
+                },
+                {
+                    "original": "https://play-lh.googleusercontent.com/T4ZQJFWDDY2qaVF5-vY-p-v5WCQH19x31DolqIFJkjTNDpSJYl6xuzAcAQWLOMqTEk_q=w2560-h1440",
+                    "thumbnail": "https://play-lh.googleusercontent.com/T4ZQJFWDDY2qaVF5-vY-p-v5WCQH19x31DolqIFJkjTNDpSJYl6xuzAcAQWLOMqTEk_q=w2560-h1440",
+                    "description": ""
+                },
+                {
+                    "original": "https://play-lh.googleusercontent.com/II30XbDF_K_TRjdrSTq-o2sZ34qIRmwq5SB2i290gKi3S2Idx9DWfRz3fn08agfnTUs=w2560-h1440",
+                    "thumbnail": "https://play-lh.googleusercontent.com/II30XbDF_K_TRjdrSTq-o2sZ34qIRmwq5SB2i290gKi3S2Idx9DWfRz3fn08agfnTUs=w2560-h1440",
+                    "description": ""
+                }
+              ]
+            },
+            {
+            "title": "Neuroshima Hex",
+            "category":"professional",
+            "shortDesc": "",
+            "url": "https://store.steampowered.com/app/2324150/Neuroshima_Hex/",
+            "description" : {
+              "pl": "Neuroshima Hex to cyfrowa adaptacja popularnej na świecie gry planszowej o tej samej nazwie, dostępna m.in. na PC (Steam), w której gracze rywalizują frakcjami o unikalnych umiejętnościach, rozmieszczając żetony na planszy tak, aby przechytrzyć przeciwnika taktycznie i mechanicznie. Pracując jako Unity Developer przebudowałem cały system audio od zera (poprzedni był niefunkcjonalny), naprawiłem dużą liczbę błędów wpływających na rozgrywkę i stabilność, poprawiłem widoki oraz logikę mechanik jednostek i kart, naprawiłem problemy z integracją Firebase, znacząco przyczyniłem się do tłumaczenia gry na różne języki, tworząc dodatkowo skrypt w Pythonie do automatyzacji tłumaczeń, poprawiłem UI i jego skalowanie na różnych rozdzielczościach oraz przyczyniłem się do poprawy ocen użytkowników na Steamie, przechodząc od ocen negatywnych do pozytywnych.",
+              "en": "Neuroshima Hex is the digital adaptation of the globally popular board game of the same name, available on PC (Steam), where players command unique factions and tactically place tiles on the board to outmaneuver opponents. As a Unity Developer, I rebuilt the entire audio system from scratch (since the previous one was unusable), fixed a large number of gameplay and stability issues, improved UI views and card/unit mechanics, resolved Firebase-related bugs, contributed significantly to translating the game into multiple languages (including creating a Python script for translation automation), improved the UI and scaling across different resolutions, and helped raise the game's Steam rating from negative to positive."
+            },
+            "technologies": [
+              "Unity",
+              "C#",
+              "Firebase",
+              "Steam",
+              "PC",
+              "Android"
+            ],
+            "images" : [ 
+                {
+                    "original": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2324150/dbabc6d2744c7aacd8a245d6fa1e408bf219b509/header.jpg",
+                    "thumbnail": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2324150/dbabc6d2744c7aacd8a245d6fa1e408bf219b509/header.jpg",
+                    "description": "Smartphone app login screen"
+                }
+              ]
+            },
+           {
+            "title": "Alaska Gold Fever",
+            "category":"professional",
+            "shortDesc": "",
+            "url": "https://store.steampowered.com/app/1674200/Alaska_Gold_Fever/",
+            "description" : {
+              "pl": "Alaska Gold Fever to survivalowo-ekonomiczna gra o poszukiwaniu złota na Alasce, łącząca eksplorację, zbieranie zasobów i rozwój infrastruktury wydobywczej; pracując jako Unity Developer zajmowałem się kontrolerem postaci, stworzyłem interaktywny wózek górniczy oraz system szyn do jego rozstawiania i transportu urobku, wprowadziłem poprawki w systemie lootu oraz usprawnienia w systemie hintmarków odpowiedzialnym za znaczniki na mapie i orientację w terenie.",
+              "en": "Alaska Gold Fever is a survival and resource-management game set during the Alaskan gold rush, where players explore, gather materials and build infrastructure to extract and transport ore; as a Unity Developer I worked on the character controller, created an interactive mining cart system with placeable tracks for transporting mined resources, improved the loot system and implemented changes to the hintmark/map marker system to enhance navigation and player experience."
+            },
+            "technologies": [
+              "Unity",
+              "C#",
+              "Steam",
+              "PC",
+              "UniTask",
+              "FMOD"
+            ],
+            "images": [
+              {
+                "original": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1674200/header.jpg?t=1753363943",
+                "thumbnail": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1674200/header.jpg?t=1753363943",
+                "description": {
+                  "pl": "Widok główny na steamie",
+                  "en": "Steam page screen"
+                }
+              }
+              ]
+            },
+            {
+            "title": "Prison Survival: Architect of Crime Simulator",
+            "category":"professional",
+            "shortDesc": "",
+            "url": "https://store.steampowered.com/app/1983910/Prison_Survival_Architect_of_Crime_Simulator/",
+            "description" : {
+              "pl": "Prison Survival: Architect of Crime Simulator to trzecioosobowa gra akcji i skradanki, w której gracz musi przetrwać w niebezpiecznym środowisku więziennym, zdobywać zasoby, unikać wykrycia i stopniowo przygotowywać swoją ucieczkę. Gra łączy eksplorację, system parkouru, interakcję z otoczeniem oraz napięte sekwencje stealth, w których każdy ruch ma znaczenie.W projekcie odpowiadałem za większość kluczowych systemów rozgrywki i kontroli. Stworzyłem rozbudowany kontroler postaci oraz parkouru, obejmujący m.in. ślizganie, bieganie po ścianach, zjeżdżanie po linach, skakanie po rurach i szczeblach, poruszanie się po zwisających elementach (freehang), wspinaczkę po drabinach oraz przeskakiwanie po obiektach. Zaprojektowałem i wdrożyłem od podstaw konfigurowalny system interakcji, który można było definiować zarówno przyciskami, jak i akcjami oraz ich wymaganiami — wszystko edytowalne metodą drag-and-drop w Unity, bez potrzeby zmian w kodzie.Zaimplementowałem logikę skradania, ukrywania, wykrycia, staminy oraz checkpointów. Pracowałem nad optymalizacją widoczności i okluzji, obsługą przedmiotów, a także nad tłumaczeniem gry. Odpowiadałem również za konfigurację audio w FMOD oraz częściowo za kamerę i animacje. Dodatkowo stworzyłem system konfigurowalnych i kolejkowanych akcji, wykorzystywany do sterowania bardziej złożonymi zachowaniami gameplayowymi.Zdecydowana większość mechanik obecnych w grze — w tym liczne „mniejsze”, lecz istotne interakcje, takie jak otwieranie drzwi, obsługa kamer, przełączniki i interaktywne elementy środowiska — została stworzona przeze mnie.",
+              "en": "Prison Survival: Architect of Crime Simulator is a third-person action and stealth game in which the player must survive in a hostile prison environment, gather resources, avoid detection, and gradually plan their escape. The gameplay combines exploration, parkour movement, environmental interaction, and tense stealth scenarios where every decision matters.In the project, I was responsible for most of the core gameplay and control systems. I developed an advanced character and parkour controller that included sliding, wall-running, zipline traversal, jumping across pipes and ledges, free-hanging movement, climbing ladders, and object-to-object traversal. I also designed and implemented a fully configurable interaction system, where interactions could be defined via buttons, actions, and conditional requirements — all editable through drag-and-drop in the Unity Editor, without the need to modify code.I implemented the mechanics for stealth, hiding, detection, stamina, and checkpoints. I worked on visibility and occlusion optimization, item handling, and contributed to the localization of the game. I also handled FMOD audio setup and partially worked on the camera and animations. Additionally, I created a configurable and queue-based action system used to manage complex gameplay behavior.The majority of gameplay mechanics in the final game — including many smaller yet impactful environmental interactions such as door handling, camera system control, switches, and interactive world elements — were implemented by me."
+            },
+            "technologies": [
+              "Unity",
+              "C#",
+              "Steam",
+              "PC",
+              "UniTask",
+              "FMOD"
+            ],
+            "images" : [ 
+                {
+                    "original": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1983910/da7d46bdd9e6ca37a927a0c6edb0a787790c0e0d/header.jpg",
+                    "thumbnail": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1983910/da7d46bdd9e6ca37a927a0c6edb0a787790c0e0d/header.jpg",
+                    "description": "Smartphone app login screen"
+                }
+              ]
+            },
+            {
+              "title": "M31 - Andromeda Galaxy",
+              "category": "astrophotography",
+              "shortDesc": {
+                "pl": "Galaktyka Andromedy",
+                "en": "Andromeda Galaxy"
+              },
+              "description": {
+                "pl": "Centrum Andromedy – najbliższej nam wielkiej galaktyki spiralnej, oddalonej o 2,5 miliona lat świetlnych. Na tym zdjęciu, widać jej majestatyczne ramiona spiralne, pyłowe pasma oraz towarzyszącej jej galaktyki satelitarnej - M32. To nie tylko najjaśniejszy obiekt głębokiego nieba widoczny gołym okiem z ciemnego nieba – to także najbliższy przystanek w naszej podróży poza Drogę Mleczną. Światło, które dociera do nas dziś, wyruszyło w drogę, gdy na Ziemi dopiero pojawiały się pierwsze hominidy. ",
+                "en": "The core of the Andromeda Galaxy – our closest major spiral neighbor, 2.5 million light-years away. This image captures its majestic spiral arms, dark dust lanes, and one of its satellite galaxies, M32. It is not only the brightest deep-sky object visible to the naked eye from a dark site – it is also the nearest stepping stone beyond the Milky Way. The light reaching us today began its journey when early hominids were just emerging on Earth."
+              },
+              "technologies": [
+                "Seestar S50",
+                "~450 stacked photos",
+                "Exposure time: 10s",
+                "Total exposure time: 1h15min"
+              ],
+              "images": [
+                {
+                  "original": "images/portfolio/Astrophotography/M31 - Andromeda.jpg",
+                  "thumbnail": "images/portfolio/Astrophotography/M31 - Andromeda.jpg",
+                  "description": {
+                    "pl": "Galaktyka Andromedy M31",
+                    "en": "Andromeda Galaxy M31"
+                  }
+                }
+              ]
+            },
+            {
+              "title": "Beaver Supermoon",
+              "category": "astrophotography",
+              "shortDesc": {
+                "pl": "Superksiężyc Bobrowy z 5 listopada 2025",
+                "en": "Beaver Supermoon of November 5, 2025"
+              },
+              "description": {
+                "pl": "Superksiężyc Bobrowy, znany również jako pełnia listopadowa, osiągnął swój szczyt jasności 5 listopada 2025 roku o godzinie 4:19 czasu polskiego. To nie był zwykły pełny księżyc – to największy i najjaśniejszy supermoon roku, gdy Srebrny Glob znajdował się w perygeum (najbliższym punkcie orbity do Ziemi), zaledwie 356 980 km od naszej planety. W efekcie Księżyc wydawał się o około 7% większy i do 16% jaśniejszy niż typowa pełnia, rzucając delikatne cienie na ziemię i malując jesienny krajobraz w złotym blasku.Co to jest Superksiężyc Bobrowy? Nazwa Bobrowy (Beaver Moon) wywodzi się z tradycji rdzennych ludów Ameryki Północnej i europejskich osadników. Listopad to czas, gdy bobry kończą budować swoje żeremie i gromadzić zapasy na zimę, a w epoce handlu futrami był to szczyt sezonu pułapek na te zwierzęta. Inne nazwy listopadowej pełni to Mroźny Księżyc (Frost Moon) czy Księżyc Godzin Jeleni (Deer Rutting Moon), odzwierciedlające przygotowania natury do chłodów. Termin supermoon (ukuty w 1979 r.) opisuje zjawisko, gdy pełnia zbiega się z perygeum – orbitą Księżyca jest elipsa, więc raz jest bliżej (perygeum), raz dalej (apogeum). W 2025 roku to drugi z trzech supermoonów (po październikowym i przed grudniowym), ale zdecydowanie najbardziej spektakularny.",
+                "en": "The Beaver Supermoon, also known as the November full moon, reached its peak brightness on November 5, 2025, at 4:19 AM CET. This was no ordinary full moon — it was the largest and brightest supermoon of the year, with the Moon at perigee (its closest point to Earth), just 356,980 km from our planet. As a result, it appeared about 7% larger and up to 16% brighter than a typical full moon, casting soft shadows on the ground and painting the autumn landscape in golden light.What is the Beaver Supermoon?The name Beaver Moon comes from the traditions of Native North American peoples and early European settlers. November is the time when beavers finish building their lodges and stockpile food for winter — and, in the era of the fur trade, it was the peak season for trapping them. Other names for the November full moon include Frost Moon or Deer Rutting Moon, reflecting nature’s preparations for the cold. The term supermoon (coined in 1979) describes a full moon that coincides with perigee — the Moon’s orbit is elliptical, so it is sometimes closer (perigee) and sometimes farther (apogee). In 2025, this was the second of three supermoons (after October and before December), but by far the most spectacular."
+              },
+              "technologies": [
+                "Seestar S50"
+              ],
+              "images": [
+                {
+                  "original": "images/portfolio/Astrophotography/Supermoon 5.11.25.jpg",
+                  "thumbnail": "images/portfolio/Astrophotography/Supermoon 5.11.25.jpg",
+                  "description": {
+                    "pl": "Supermoon 5.11.25",
+                    "en": "Supermoon 5.11.25"
+                  }
+                },
+                {
+                  "original": "images/portfolio/Astrophotography/sl.png",
+                  "thumbnail": "images/portfolio/Astrophotography/sl.png",
+                  "description": {
+                    "pl": "Satelita Starlink-35297 przelatujący na tle księżyca dzień wcześniej.",
+                    "en": "Starlink-35297 satellite passing in front of the Moon the day before."
+                  }
+                }
+              ]
+            }
+    ]
+  }
+}
