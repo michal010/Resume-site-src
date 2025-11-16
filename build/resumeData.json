@@ -724,8 +724,8 @@
             "shortDesc": "",
             "url": "https://store.steampowered.com/app/1674200/Alaska_Gold_Fever/",
             "description" : {
-              "pl": "Alaska Gold Fever to survivalowo-ekonomiczna gra o poszukiwaniu złota na Alasce, łącząca eksplorację, zbieranie zasobów i rozwój infrastruktury wydobywczej; pracując jako Unity Developer zajmowałem się kontrolerem postaci, stworzyłem interaktywny wózek górniczy oraz system szyn do jego rozstawiania i transportu urobku, wprowadziłem poprawki w systemie lootu oraz usprawnienia w systemie hintmarków odpowiedzialnym za znaczniki na mapie i orientację w terenie.",
-              "en": "Alaska Gold Fever is a survival and resource-management game set during the Alaskan gold rush, where players explore, gather materials and build infrastructure to extract and transport ore; as a Unity Developer I worked on the character controller, created an interactive mining cart system with placeable tracks for transporting mined resources, improved the loot system and implemented changes to the hintmark/map marker system to enhance navigation and player experience."
+              "pl": "Alaska Gold Fever to survivalowo-ekonomiczna gra o poszukiwaniu złota na Alasce, łącząca eksplorację, zbieranie zasobów i rozwój infrastruktury wydobywczej; pracując jako Unity Developer zajmowałem się kontrolerem postaci, stworzyłem interaktywny wózek górniczy oraz system szyn do jego rozstawiania i transportu urobku, wprowadziłem poprawki w systemie lootu oraz usprawnienia w systemie hintmarków odpowiedzialnym za znaczniki na mapie i orientację w terenie. Pomagałem przy fizyce psiego zaprzęgu.",
+              "en": "Alaska Gold Fever is a survival and resource-management game set during the Alaskan gold rush, where players explore, gather materials and build infrastructure to extract and transport ore; as a Unity Developer I worked on the character controller, created an interactive mining cart system with placeable tracks for transporting mined resources, improved the loot system and implemented changes to the hintmark/map marker system to enhance navigation and player experience. I helped with the physics of dog sledding."
             },
             "technologies": [
               "Unity",
@@ -742,6 +742,22 @@
                 "description": {
                   "pl": "Widok główny na steamie",
                   "en": "Steam page screen"
+                }
+              },
+              {
+                "original": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1674200/ss_f2d29663c989b142b61734cb2d5200ff7d60ad68.1920x1080.jpg",
+                "thumbnail": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1674200/ss_f2d29663c989b142b61734cb2d5200ff7d60ad68.1920x1080.jpg",
+                "description": {
+                  "pl": "Psi zaprzęg",
+                  "en": "Dog sledding"
+                }
+              },
+              {
+                "original": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1674200/ss_4011c48f84b83c0b6aded941be4aa1f9374c26ea.1920x1080.jpg",
+                "thumbnail": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1674200/ss_4011c48f84b83c0b6aded941be4aa1f9374c26ea.1920x1080.jpg",
+                "description": {
+                  "pl": "Wydobycie złota",
+                  "en": "Gold mining"
                 }
               }
               ]
@@ -767,7 +783,28 @@
                 {
                     "original": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1983910/da7d46bdd9e6ca37a927a0c6edb0a787790c0e0d/header.jpg",
                     "thumbnail": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1983910/da7d46bdd9e6ca37a927a0c6edb0a787790c0e0d/header.jpg",
-                    "description": "Smartphone app login screen"
+                    "description": {
+                      "pl": "Widok główny na steamie",
+                      "en": "Steam page screen"
+                    }
+                },
+                {
+                    "original": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1983910/f161ea7cda140f9a05f8bea59463d8744df279f8/ss_f161ea7cda140f9a05f8bea59463d8744df279f8.1920x1080.jpg",
+                    "thumbnail": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1983910/f161ea7cda140f9a05f8bea59463d8744df279f8/ss_f161ea7cda140f9a05f8bea59463d8744df279f8.1920x1080.jpg",
+                    "description": {
+                    }
+                },
+                {
+                    "original": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1983910/7af331770d6e63918e31d9c6169b362575369d3a/ss_7af331770d6e63918e31d9c6169b362575369d3a.1920x1080.jpg",
+                    "thumbnail": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1983910/7af331770d6e63918e31d9c6169b362575369d3a/ss_7af331770d6e63918e31d9c6169b362575369d3a.1920x1080.jpg",
+                    "description": {
+                    }
+                },
+                {
+                    "original": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1983910/0b5c707d85743181e47fd5558256ba1f4be943ed/ss_0b5c707d85743181e47fd5558256ba1f4be943ed.1920x1080.jpg",
+                    "thumbnail": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1983910/0b5c707d85743181e47fd5558256ba1f4be943ed/ss_0b5c707d85743181e47fd5558256ba1f4be943ed.1920x1080.jpg",
+                    "description": {
+                    }
                 }
               ]
             },
